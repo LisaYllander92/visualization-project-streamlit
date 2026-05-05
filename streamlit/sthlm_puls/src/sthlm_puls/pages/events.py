@@ -5,6 +5,7 @@ from sthlm_puls.utils.constants import DATA_PATH
 from sthlm_puls.components.weather import fetch_weather_forecast
 from sthlm_puls.components.charts import plot_events_weather
 from sthlm_puls.components.kpis import diff_music_events
+from sthlm_puls.components.filters import venue_filter, genre_filter, date_filter
 
 
 def events_layout():
@@ -36,11 +37,51 @@ def events_layout():
     fig = plot_events_weather(df_merged)
     st.pyplot(fig)
 
-    st.markdown("**Number of different music events during May**")
-    genres = ["Rock", "Blues", "Reggae", "Hip-Hop/Rap", "Folk",
-              "Dance/Electronic", "R&B", "Alternative", "Latin",
-              "World", "Classical", "Miscellaneous"]
-    st.dataframe(diff_music_events(genres, "Numbers"))
+    st.markdown("## *Explore to find what your next event will be*")
+
+
+    # Filters
+    col1,col2, col3 = st.columns(3)
+    with col1:
+        date_range = date_filter(events)
+    with col2:
+        venue = venue_filter(events)
+    with col3:
+        genre = genre_filter(events)
+
+
+    # Filter table
+    filtered = events.copy()
+
+    if venue != "All":
+        filtered = filtered[filtered["venue_name"] == venue]
+
+    if genre != "All":
+        filtered = filtered[filtered["genre"] == genre]
+
+    if len(date_range) == 2:
+        filtered = filtered[
+            (filtered["date"].dt.date >= date_range[0]) &
+            (filtered["date"].dt.date <= date_range[1])
+            ]
+
+    st.dataframe(filtered[["name", "venue_name", "date", "genre"]]
+                 .assign(date=filtered["date"].dt.strftime("%y-%m-%d"))
+                 .rename(columns={
+                    "name": "Event",
+                    "venue_name": "Venue",
+                    "date": "Date",
+                    "genre": "Genre"})
+                    .reset_index(drop=True))
+
+
+
+
+    # st.markdown("**Number of different music events during May**")
+    # genres = ["Rock", "Blues", "Reggae", "Hip-Hop/Rap", "Folk",
+    #           "Dance/Electronic", "R&B", "Alternative", "Latin",
+    #           "World", "Classical", "Miscellaneous"]
+    # st.dataframe(diff_music_events(genres, "Numbers"))
 
 if __name__ == "__main__":
     events_layout()

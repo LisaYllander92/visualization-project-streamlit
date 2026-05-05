@@ -16,6 +16,7 @@ COLORS = {
     "gray_2":     "#888888",
     "gray_3":     "#444444",
     "blue_dark":  "#2E4057",
+    "blue_light": "#93A4C1",
     "gray_light": "#D5D8DC",
     "pink":       "#FF6666",
     "purple_1":   "#777DA7",
