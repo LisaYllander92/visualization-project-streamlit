@@ -1,11 +1,13 @@
 import streamlit as st
 import pandas as pd
+from datetime import datetime
+import duckdb
 
 from sthlm_puls.utils.constants import DATA_PATH
 from sthlm_puls.components.weather import fetch_weather_forecast
 from sthlm_puls.components.charts import plot_events_weather
-from sthlm_puls.components.kpis import diff_music_events
 from sthlm_puls.components.filters import venue_filter, genre_filter, date_filter
+from sthlm_puls.components.kpis import total_events_kpi, unique_venues_kpi, total_events_this_month_kpi
 
 
 def events_layout():
@@ -74,14 +76,23 @@ def events_layout():
                     "genre": "Genre"})
                     .reset_index(drop=True))
 
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        count = total_events_kpi(filtered, genre)
+        st.metric(label=f"Total events ({genre})", value=count)
+    with col2:
+        count = unique_venues_kpi(filtered, venue)
+        st.metric(label=f"Unique venues ({venue})", value=count)
+
+    with col3:
+        month_name = datetime.today().strftime("%B")
+        st.metric(label=f"Total events in {month_name}", value=total_events_this_month_kpi(events))
 
 
 
-    # st.markdown("**Number of different music events during May**")
-    # genres = ["Rock", "Blues", "Reggae", "Hip-Hop/Rap", "Folk",
-    #           "Dance/Electronic", "R&B", "Alternative", "Latin",
-    #           "World", "Classical", "Miscellaneous"]
-    # st.dataframe(diff_music_events(genres, "Numbers"))
+
+
 
 if __name__ == "__main__":
     events_layout()
