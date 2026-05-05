@@ -20,4 +20,6 @@ COLORS = {
     "pink":       "#FF6666",
     "purple_1":   "#777DA7",
     "purple_2":   "#1F0322",
+    "BAKGRUND":   '#FFFFFF',
+    "HIGHLIGHT": '#E8192C',
 }

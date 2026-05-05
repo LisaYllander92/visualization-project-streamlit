@@ -62,3 +62,43 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
 
     fig.tight_layout()
     return fig
+
+
+
+def plot_events_weekday(df: pd.DataFrame):
+    # df = pd.read_csv('../streamlit/sthlm_puls/src/sthlm_puls/assets/data/events_combined.csv')
+
+# Måndag överst i listan = måndag nederst i barh, söndag överst
+    day_order  = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    day_labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+    day_counts = df['day_of_week'].value_counts().reindex(day_order).fillna(0)
+    total = day_counts.sum()
+    pct = (day_counts / total * 100).round(1)
+
+    fig, ax = plt.subplots(figsize=(8, 3))
+    fig.patch.set_facecolor(COLORS["BAKGRUND"])
+    ax.set_facecolor(COLORS["BAKGRUND"])
+
+    ax.plot(day_labels, pct.values, color=COLORS["pink"], linewidth=2.5,
+            marker='o', markersize=7, markerfacecolor='white',
+            markeredgecolor=COLORS["pink"], markeredgewidth=2)
+    ax.fill_between(day_labels, pct.values, alpha=0.1, color=COLORS["pink"])
+
+    ax.spines[['top', 'right', 'left']].set_visible(False)
+    ax.spines['bottom'].set_color(COLORS["gray_1"])
+    ax.tick_params(colors=COLORS["gray_2"], labelsize=10, length=0, pad=5)
+    ax.set_xlabel('shares of events (%)', color=COLORS["gray_2"], fontsize=9)
+    ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, linestyle='--')
+    ax.set_axisbelow(True)
+
+    ax.set_title(
+    'Stockholm is a weekend city – saturday dominates',
+    loc='left',
+    color=COLORS["gray_3"],
+    fontsize=13,
+    pad=15
+    )
+
+    fig.tight_layout()
+    return fig
