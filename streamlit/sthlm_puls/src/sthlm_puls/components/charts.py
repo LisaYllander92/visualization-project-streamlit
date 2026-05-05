@@ -50,7 +50,7 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
     ax.spines[["top", "right", "left"]].set_visible(False)
     ax.spines["bottom"].set_color(COLORS["blue_dark"])
     ax.set_ylim(0, y_max * 1.55)
-    ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, zorder=0)
+    ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, linestyle='--')
     ax.set_axisbelow(True)
     ax.set_title(
         "This week's cultural events in Stockholm — pick the right day",
@@ -77,8 +77,8 @@ def plot_events_weekday(df: pd.DataFrame):
     pct = (day_counts / total * 100).round(1)
 
     fig, ax = plt.subplots(figsize=(8, 3))
-    fig.patch.set_facecolor(COLORS["BAKGRUND"])
-    ax.set_facecolor(COLORS["BAKGRUND"])
+    fig.patch.set_facecolor(COLORS["blue_light"])
+    ax.set_facecolor(COLORS["blue_light"])
 
     ax.plot(day_labels, pct.values, color=COLORS["pink"], linewidth=2.5,
             marker='o', markersize=7, markerfacecolor='white',
@@ -87,8 +87,8 @@ def plot_events_weekday(df: pd.DataFrame):
 
     ax.spines[['top', 'right', 'left']].set_visible(False)
     ax.spines['bottom'].set_color(COLORS["gray_1"])
-    ax.tick_params(colors=COLORS["gray_2"], labelsize=10, length=0, pad=5)
-    ax.set_xlabel('shares of events (%)', color=COLORS["gray_2"], fontsize=9)
+    ax.tick_params(colors=COLORS["blue_dark"], labelsize=10, length=0, pad=5)
+    ax.set_xlabel('shares of events (%)', color=COLORS["blue_dark"], fontsize=7)
     ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, linestyle='--')
     ax.set_axisbelow(True)
 
@@ -96,8 +96,9 @@ def plot_events_weekday(df: pd.DataFrame):
     'Stockholm is a weekend city – saturday dominates',
     loc='left',
     color=COLORS["gray_3"],
-    fontsize=13,
-    pad=15
+    fontsize=12,
+    fontweight="bold",
+    pad=20
     )
 
     fig.tight_layout()
