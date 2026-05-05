@@ -15,8 +15,8 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
     ]
 
     fig, ax = plt.subplots(figsize=(8, 3))
-    fig.patch.set_facecolor("white")
-    ax.set_facecolor("white")
+    fig.patch.set_facecolor(COLORS["blue_light"])
+    ax.set_facecolor(COLORS["blue_light"])
 
     x = np.arange(len(df_merged))
     ax.bar(x, df_merged["num_events"], color=bar_colors,
@@ -27,12 +27,12 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
 
     for i, row in df_merged.iterrows():
         ax.text(i, row["num_events"] + y_max * 0.06,
-                row["icon"], ha="center", va="bottom",
+                row["icon"], ha="left", va="bottom",
                 fontsize=14, fontproperties=emoji_font)
         ax.text(i, row["num_events"] + y_max * 0.16,
                 f"{int(row['temp_max'])}°",
-                ha="center", va="bottom", fontsize=8,
-                color=COLORS["gray_2"])
+                ha="right", va="bottom", fontsize=8,
+                color=COLORS["blue_dark"])
 
     legend_items = [
         mpatches.Patch(color=COLORS["pink"], label="Warmest day"),
@@ -40,15 +40,15 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
     ]
 
     ax.legend(handles=legend_items, fontsize=8, frameon=False,
-              labelcolor=COLORS["gray_3"], loc="upper left")
+              labelcolor=COLORS["blue_dark"], loc="upper left")
 
     ax.set_xticks(x)
-    ax.set_xticklabels(df_merged["day_label"], fontsize=9, color=COLORS["gray_2"])
-    ax.set_ylabel("Number of events", fontsize=9, color=COLORS["gray_2"])
-    ax.yaxis.set_label_coords(-0.06, 0.8)
-    ax.tick_params(axis="both", length=0, colors=COLORS["gray_2"])
+    ax.set_xticklabels(df_merged["day_label"], fontsize=9, color=COLORS["blue_dark"])
+    ax.set_ylabel("Number of events", fontsize=7, color=COLORS["blue_dark"])
+    ax.yaxis.set_label_coords(-0.06, 0.5)
+    ax.tick_params(axis="both", length=0, colors=COLORS["blue_dark"])
     ax.spines[["top", "right", "left"]].set_visible(False)
-    ax.spines["bottom"].set_color(COLORS["gray_1"])
+    ax.spines["bottom"].set_color(COLORS["blue_dark"])
     ax.set_ylim(0, y_max * 1.55)
     ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, zorder=0)
     ax.set_axisbelow(True)
@@ -57,8 +57,8 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
         loc="left", fontsize=12, fontweight="bold",
         color=COLORS["gray_3"], pad=20
     )
-    ax.set_xlabel("Day", fontsize=9, color=COLORS["gray_2"])
-    ax.xaxis.set_label_coords(0.06, -0.1)
+    ax.set_xlabel("Day", fontsize=7, color=COLORS["blue_dark"])
+    ax.xaxis.set_label_coords(0.5, -0.1)
 
     fig.tight_layout()
     return fig
