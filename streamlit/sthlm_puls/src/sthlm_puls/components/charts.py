@@ -14,7 +14,7 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
         for _, row in df_merged.iterrows()
     ]
 
-    fig, ax = plt.subplots(figsize=(13, 6))
+    fig, ax = plt.subplots(figsize=(8, 3))
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
 
