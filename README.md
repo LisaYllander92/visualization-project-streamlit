@@ -2,7 +2,7 @@
 
 A data engineering and visualization project that aggregates events, museums 
 and cultural activities in Stockholm from multiple sources. Built as part of 
-a collaborative DE25 school project.
+a collaborative school project together with UX25.
 
 ## Project Overview
 
@@ -35,30 +35,32 @@ Since this was our first time working with the platform, you might encounter a f
 
 ## Project Structure
 
-´´´
+```
 visualization-project-streamlit/
 ├── api/                # API integrations and data fetching logic
 ├── data/               # Data storage
 │   ├── output/         # Processed data files ready for visualization
 │   └── raw/            # Original, unmodified source data
 ├── eda/                # Exploratory Data Analysis notebooks
-│   ├── eda_lisa.ipynb  # Lisa's data exploration
-│   └── eda_rickard.ipynb # Rickard's data exploration
+│   ├── eda_lisa.ipynb  
+│   ├── eda_rickard.ipynb
+│   ├── eda_dennis.ipynb
+│   └── eda_mossad.ipynb
 ├── streamlit/          # Source code for the Streamlit application
 ├── .env                # Environment variables (e.g., API keys)
 ├── .gitignore          # Files and folders to be ignored by Git
-├── packages.txt        # System-level dependencies for deployment
 ├── pyproject.toml      # Project metadata and Python dependencies
 ├── README.md           # Project documentation
 └── uv.lock             # Deterministic lockfile for package versions
-´´´
+```
+
 
 ## Setup
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/rickardgarnau-byte/datavisualization_course.git
-cd datavisualization_course
+git clone https://github.com/rickardgarnau-byte/visualization-project-streamlit.git
+cd visualization-project-streamlit
 ```
 
 ### 2. Install dependencies
@@ -73,13 +75,8 @@ GOOGLE_PLACES_KEY=your_key_here
 
 ### 4. Fetch raw data
 
-uv run api/api_fetch_full_year.py
-uv run api/api_fetch_visitstockholm.py
-uv run api/api_fetch_museum.py
-uv run api/fetch_fasching.py
-uv run api/fetch_berns.py
-uv run api/fetch_weather.py
-uv run api/museum_activity.py
+uv run all api/fetch files
+
 
 # Clean and merge
 uv run api/api_clean_visitstockholm.py
@@ -112,7 +109,7 @@ CSV files are excluded from Git via `.gitignore`.
 - [x] Power BI dashboard with KPIs, filters, bar charts and pie charts
 - [x] Published Power BI dashboard
 - [x] Min. 2 data storytelling graphs in matplotlib
-- [ ] Streamlit dashboard (in progress)
+- [x] Streamlit dashboard
 
 ## Known Data Quality Issues
 
@@ -130,6 +127,9 @@ CSV files are excluded from Git via `.gitignore`.
 | Dennis | Musik |
 | Mossad | Övrigt |
 
+> Streamlit dashboard developed by Rickard and Lisa.
+> [**Explore the Streamlit Documentation & Source Code →**](./streamlit/sthlm_puls/src/sthlm_puls/README.md)
+
 ## Status
 
-Complete — data collection, cleaning, EDA and Power BI dashboard done.
+Complete — data collection, cleaning, EDA, Power BI and Streamlit dashboard done.
