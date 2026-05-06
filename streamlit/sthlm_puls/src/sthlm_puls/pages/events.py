@@ -39,6 +39,12 @@ def events_layout():
     df_merged["num_events"] = df_merged["num_events"].fillna(0).astype(int)
 
     # Plot
+    emoji_html = "".join(
+        f'<span style="display:inline-block;width:{100 / len(df_merged):.1f}%;text-align:center;font-size:1.2rem;">{row["icon"]}</span>'
+        for _, row in df_merged.iterrows()
+    )
+    st.markdown(f'<div style="width:100%;display:flex;">{emoji_html}</div>', unsafe_allow_html=True)
+
     fig = plot_events_weather(df_merged)
     st.pyplot(fig)
 
