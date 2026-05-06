@@ -8,8 +8,10 @@ from sthlm_puls.utils.constants import COLORS
 
 def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
 
+    max_temp = df_merged["temp_max"].max()
+
     bar_colors = [
-        COLORS["pink"] if row["temp_max"] == df_merged["temp_max"].max()
+        COLORS["pink"] if abs(row["temp_max"] - max_temp) < 0.01
         else COLORS["gray_light"]
         for _, row in df_merged.iterrows()
     ]
@@ -30,7 +32,7 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
                 row["icon"], ha="left", va="bottom",
                 fontsize=14, fontproperties=emoji_font)
         ax.text(i, row["num_events"] + y_max * 0.16,
-                f"{int(row['temp_max'])}°",
+                f"{row['temp_max']:.1f}°",
                 ha="right", va="bottom", fontsize=8,
                 color=COLORS["blue_dark"])
 

@@ -3,16 +3,19 @@ import pandas as pd
 from datetime import datetime
 import duckdb
 
-from sthlm_puls.utils.constants import DATA_PATH
+from sthlm_puls.utils.constants import DATA_PATH, MARKDOWN_PATH
 from sthlm_puls.components.weather import fetch_weather_forecast
-from sthlm_puls.components.charts import plot_events_weather
+from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday
 from sthlm_puls.components.filters import venue_filter, genre_filter, date_filter
-from sthlm_puls.components.kpis import total_events_kpi, unique_venues_kpi, total_events_this_month_kpi
+from sthlm_puls.components.kpis import total_events_kpi, unique_venues_kpi, total_events_this_month_kpi, total_events_today_kpi
+from sthlm_puls.utils.helpers import read_textfile, get_events_df
 
 
 def events_layout():
     st.title("📅 This Week in Stockholm")
-    st.markdown("Find the best day to experience Stockholm's cultural scene.")
+    st.markdown("Stockholm never stands still — there's always something going on.\n "
+                "The **warmest day** of the week is highlighted to help you decide whether to catch an outdoor concert, "
+                "visit a gallery, or explore the city.")
 
     # Load data
     weather = fetch_weather_forecast(days=7)
@@ -39,7 +42,8 @@ def events_layout():
     fig = plot_events_weather(df_merged)
     st.pyplot(fig)
 
-    st.markdown("## *Explore to find what your next event will be*")
+    st.subheader("Explore to find what your next event will be")
+    st.markdown("Filter by date, venue or genre to find exactly what you're looking for.")
 
 
     # Filters
@@ -76,7 +80,9 @@ def events_layout():
                     "genre": "Genre"})
                     .reset_index(drop=True))
 
-    col1, col2, col3 = st.columns(3)
+    st.subheader("At a glance")
+
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
         count = total_events_kpi(filtered, genre)
@@ -84,11 +90,21 @@ def events_layout():
     with col2:
         count = unique_venues_kpi(filtered, venue)
         st.metric(label=f"Unique venues ({venue})", value=count)
-
     with col3:
         month_name = datetime.today().strftime("%B")
-        st.metric(label=f"Total events in {month_name}", value=total_events_this_month_kpi(events))
+        st.metric(label=f"Total events this month ({month_name})", value=total_events_this_month_kpi(events))
+    with col4:
+        day_today = datetime.today().strftime("%A")
+        events_count = total_events_today_kpi(events)
+        st.metric(label=f"Total events today ({day_today})", value=events_count)
 
+    st.subheader("When to go out?")
+    st.markdown("Stockholm's cultural life peaks on weekends — Saturday alone accounts for nearly a third of all weekly events."
+                "If you prefer smaller crowds, mid-week offers a more low-key experience with fewer but often more intimate events.")
+
+    df = get_events_df()
+    fig = plot_events_weekday(df)
+    st.pyplot(fig)
 
 if __name__ == "__main__":
     events_layout()

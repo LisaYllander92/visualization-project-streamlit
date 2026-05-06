@@ -42,3 +42,13 @@ def total_events_this_month_kpi(df: pd.DataFrame) -> int:
     AND YEAR(CAST(date as DATE)) = {current_year}
 """).fetchone()
     return result[0] if result else 0
+
+
+def total_events_today_kpi(df: pd.DataFrame) -> int:
+    result = duckdb.sql(f"""--sql
+    SELECT COUNT(*)
+    FROM df
+    WHERE CAST(date as DATE) = current_date
+""").fetchone()
+
+    return result[0] if result else 0
