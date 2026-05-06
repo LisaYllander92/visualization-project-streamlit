@@ -34,36 +34,24 @@ Since this was our first time working with the platform, you might encounter a f
 | Open-Meteo API | REST API | Weather forecast for Stockholm |
 
 ## Project Structure
-visualization_project/
-├── api/
-│   ├── api_fetch_full_year.py      # Fetch events from Ticketmaster
-│   ├── api_fetch_visitstockholm.py # Fetch events from VisitStockholm
-│   ├── api_fetch_museum.py         # Fetch museums via Google Places
-│   ├── api_clean_visitstockholm.py # Clean and classify VisitStockholm data
-│   ├── fetch_fasching.py           # Fetch Fasching events
-│   ├── fetch_berns.py              # Fetch Berns events
-│   ├── fetch_weather.py            # Fetch weather data
-│   ├── merge_events.py             # Merge all event sources
-│   └── museum_activity.py          # Museum popularity scores
-├── eda/
-│   ├── eda_rickard.ipynb           # EDA - Rickard
-│   ├── eda_lisa.ipynb              # EDA - Lisa
-├── data/
-│   ├── raw/                        # Raw fetched data
-│   └── output/                     # Cleaned and merged data
-├── streamlit/
-│   ├── sthlm_puls/
-│       ├── src/
-│          ├── sthlm_puls/
-│              ├── asset/
-│              ├── components/
-│              ├── pages/
-│              ├── utils
-│          ├── app.py
-│          └── README.md            # streamlit
-├── .env                            # API keys (not tracked in Git)
-├── .gitignore
-└── README.md                       # project owerview
+
+´´´
+visualization-project-streamlit/
+├── api/                # API integrations and data fetching logic
+├── data/               # Data storage
+│   ├── output/         # Processed data files ready for visualization
+│   └── raw/            # Original, unmodified source data
+├── eda/                # Exploratory Data Analysis notebooks
+│   ├── eda_lisa.ipynb  # Lisa's data exploration
+│   └── eda_rickard.ipynb # Rickard's data exploration
+├── streamlit/          # Source code for the Streamlit application
+├── .env                # Environment variables (e.g., API keys)
+├── .gitignore          # Files and folders to be ignored by Git
+├── packages.txt        # System-level dependencies for deployment
+├── pyproject.toml      # Project metadata and Python dependencies
+├── README.md           # Project documentation
+└── uv.lock             # Deterministic lockfile for package versions
+´´´
 
 ## Setup
 
