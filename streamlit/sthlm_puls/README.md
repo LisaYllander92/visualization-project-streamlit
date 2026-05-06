@@ -1,3 +1,5 @@
+[← Back to Main Project Documentation](../../../../README.md)
+
 # STHLMs PULS 🎭
 
 A data-driven cultural guide for Stockholm — helping you discover events, plan around the weather, and explore the city's cultural scene.
@@ -5,14 +7,10 @@ A data-driven cultural guide for Stockholm — helping you discover events, plan
 ## About
 
 STHLMs PULS combines event data from multiple sources with real-time weather forecasts to help culturally curious Stockholmers find the best time to head out.
+This streamlit dashboard is built as an extension of a group project that we did with UX.
 
-This streamlit dashboard is built as a extension of a group project that we did with UX.
-
-## Features
-
-- 📅 **This Week** — daily event counts combined with a 7-day weather forecast, highlighting the warmest day of the week
-- 📊 **Events** — browse and filter cultural events by genre, venue and date
-- 🗃️ **Raw Data** — explore the underlying dataset
+## STHLMs PULS APP
+[**Explore the Live App →**](https://visualization-project-app-fk6ncp7xfgrsqmbp7mehwv.streamlit.app/events)
 
 ## Data Sources
 
@@ -24,31 +22,40 @@ This streamlit dashboard is built as a extension of a group project that we did 
 | Berns | Club & live events |
 | Open-Meteo API | Weather forecast (no API key required) |
 
+## Features
+
+- 📅 **This Week** — daily event counts combined with a 7-day weather forecast, highlighting the warmest day of the week
+- 📊 **Events** — browse and filter cultural events by genre, venue and date
+- 🗃️ **Raw Data** — explore the underlying dataset
+
 ## Project Structure
 ```
-streamlit/
-└── sthlm_puls/
-└── src/
-└── sthlm_puls/
-├── components/
-│   ├── charts.py       # Matplotlib visualizations
-│   ├── kpis.py         # KPI components
-│   └── weather.py      # Weather fetch & processing
-├── pages/
-│   ├── home.py         # Landing page
-│   ├── events.py       # Events + weather chart
-│   └── raw_data.py     # Raw data explorer
-├── assets/
-│   ├── data/           # CSV files
-│   ├── image/          # Images
-│   ├── markdown/       # Page intro texts
-│   └── style/          # CSS
-└── utils/
-├── constants.py    # Paths and color palette
-└── helpers.py      # Utility functions
+streamlit/sthlm_puls/src/sthlm_puls/
+├── assets/             # Static files used in the app
+│   ├── data/           # App-specific datasets
+│   ├── image/          # Header & Footer images
+│   └── markdown/       # Text content and documentation files
+├── components/         # Reusable UI elements and logic
+│   ├── charts.py       # Visualization functions (Matplotlib)
+│   ├── filters.py      # Data filtering logic
+│   ├── kpis.py         # Live Key Performance Indicator calculations
+│   └── weather.py      # Weather-related components/API logic
+├── pages/              # Multi-page app navigation
+│   ├── events.py       # Detailed event views
+│   ├── home.py         # Main dashboard landing page
+│   └── raw_data.py     # Data inspection
+├── utils/              # Utility functions and shared logic
+│   ├── constants.py    # Fixed values (colors, categories, etc.)
+│   └── helpers.py      # General support functions
+└── app.py              # Main entry point for the Streamlit app
 ```
 
 ## Getting Started
+**Clone repository**
+```bash
+git clone git@github.com:rickardgarnau-byte/visualization-project-streamlit.git
+cd visualization-project-streamlit
+```
 
 **Requirements:** Python 3.11+, [uv](https://github.com/astral-sh/uv)
 
@@ -63,17 +70,6 @@ cd streamlit/sthlm_puls/src/sthlm_puls
 uv run streamlit run app.py
 ```
 
-## Color Palette
-
-| Name | Hex |
-|---|---|
-| Pink | `#FF6666` |
-| Purple 1 | `#777DA7` |
-| Purple 2 | `#1F0322` |
-| Blue Dark | `#2E4057` |
-| Gray Light | `#D5D8DC` |
-
 ## Contributors
-
 - Lisa Yllander
 - Rickard Garnau
