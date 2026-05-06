@@ -69,18 +69,17 @@ uv sync
 ```
 
 ### 3. Add API keys
-Create a `.env` file in the project root:
-TICKETMASTER_KEY=your_key_here
-GOOGLE_PLACES_KEY=your_key_here
+- Create a `.env` file in the project root:
+- TICKETMASTER_KEY=your_key_here
+- GOOGLE_PLACES_KEY=your_key_here
 
 ### 4. Fetch raw data
 
-uv run all api/fetch files
-
+- uv run all api/fetch files
 
 # Clean and merge
-uv run api/api_clean_visitstockholm.py
-uv run api/merge_events.py
+- uv run api/api_clean_visitstockholm.py
+- uv run api/merge_events.py
 
 ## API Setup
 
@@ -127,8 +126,8 @@ CSV files are excluded from Git via `.gitignore`.
 | Dennis | Musik |
 | Mossad | Övrigt |
 
-> Streamlit dashboard developed by Rickard and Lisa.
-> [**Explore the Streamlit Documentation & Source Code →**](./streamlit/sthlm_puls/src/sthlm_puls/README.md)
+> Streamlit dashboard developed by Lisa and Rickard.
+- [**Explore the Streamlit Documentation & Source Code →**](./streamlit/sthlm_puls/src/sthlm_puls/README.md)
 
 ## Status
 
