@@ -1,6 +1,10 @@
 import streamlit as st
-import base64
+import sys
+import os
 from sthlm_puls.utils.constants import IMAGE_PATH
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 
 st.set_page_config(layout="wide")
 
@@ -16,12 +20,5 @@ pg = st.navigation(pages)
 pg.run()
 
 # Footer
-with open(IMAGE_PATH / "sthlmpuls_footer.png", "rb") as f:
-    data = base64.b64encode(f.read()).decode()
-
-st.markdown(f"""
-    <div style="position: relative; width: 100%; margin-top: 2rem;">
-        <img src="data:image/png;base64,{data}" style="width: 100%; display: block;">
-    </div>
-""", unsafe_allow_html=True)
+st.image(IMAGE_PATH / "sthlmpuls_footer.png", use_container_width=True)
 

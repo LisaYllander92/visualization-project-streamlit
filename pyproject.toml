@@ -1,5 +1,5 @@
 [project]
-name = "visualization-project"
+name = "visualization-project-streamlit"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -19,7 +19,11 @@ dependencies = [
     "seaborn>=0.13.2",
     "beautifulsoup4>=4.14.3",
     "streamlit>=1.57.0",
+    "sthlm-puls"
 ]
+
+[tool.uv.sources]
+sthlm-puls = { workspace = true }
 
 [tool.uv.workspace]
 members = [

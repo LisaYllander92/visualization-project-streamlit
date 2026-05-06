@@ -13,7 +13,7 @@ resolution-markers = [
 [manifest]
 members = [
     "sthlm-puls",
-    "visualization-project",
+    "visualization-project-streamlit",
 ]
 
 [[package]]
@@ -1768,7 +1768,7 @@ wheels = [
 ]
 
 [[package]]
-name = "visualization-project"
+name = "visualization-project-streamlit"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -1784,6 +1784,7 @@ dependencies = [
     { name = "requests" },
     { name = "seaborn" },
     { name = "sqlalchemy" },
+    { name = "sthlm-puls" },
     { name = "streamlit" },
 ]
 
@@ -1801,6 +1802,7 @@ requires-dist = [
     { name = "requests", specifier = ">=2.33.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "sqlalchemy", specifier = ">=2.0.49" },
+    { name = "sthlm-puls", editable = "streamlit/sthlm_puls" },
     { name = "streamlit", specifier = ">=1.57.0" },
 ]
 

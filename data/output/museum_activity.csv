@@ -1,0 +1,1681 @@
+museum_name,day_of_week,day_num,hour,hour_display,busy_index
+Vasamuseet,Monday,1,9,09:00,0
+Vasamuseet,Monday,1,10,10:00,23
+Vasamuseet,Monday,1,11,11:00,24
+Vasamuseet,Monday,1,12,12:00,45
+Vasamuseet,Monday,1,13,13:00,62
+Vasamuseet,Monday,1,14,14:00,64
+Vasamuseet,Monday,1,15,15:00,44
+Vasamuseet,Monday,1,16,16:00,40
+Vasamuseet,Monday,1,17,17:00,0
+Vasamuseet,Monday,1,18,18:00,0
+Vasamuseet,Monday,1,19,19:00,0
+Vasamuseet,Monday,1,20,20:00,0
+Vasamuseet,Tuesday,2,9,09:00,0
+Vasamuseet,Tuesday,2,10,10:00,13
+Vasamuseet,Tuesday,2,11,11:00,30
+Vasamuseet,Tuesday,2,12,12:00,32
+Vasamuseet,Tuesday,2,13,13:00,60
+Vasamuseet,Tuesday,2,14,14:00,60
+Vasamuseet,Tuesday,2,15,15:00,40
+Vasamuseet,Tuesday,2,16,16:00,21
+Vasamuseet,Tuesday,2,17,17:00,0
+Vasamuseet,Tuesday,2,18,18:00,0
+Vasamuseet,Tuesday,2,19,19:00,0
+Vasamuseet,Tuesday,2,20,20:00,0
+Vasamuseet,Wednesday,3,9,09:00,0
+Vasamuseet,Wednesday,3,10,10:00,8
+Vasamuseet,Wednesday,3,11,11:00,30
+Vasamuseet,Wednesday,3,12,12:00,36
+Vasamuseet,Wednesday,3,13,13:00,50
+Vasamuseet,Wednesday,3,14,14:00,72
+Vasamuseet,Wednesday,3,15,15:00,39
+Vasamuseet,Wednesday,3,16,16:00,44
+Vasamuseet,Wednesday,3,17,17:00,0
+Vasamuseet,Wednesday,3,18,18:00,0
+Vasamuseet,Wednesday,3,19,19:00,0
+Vasamuseet,Wednesday,3,20,20:00,0
+Vasamuseet,Thursday,4,9,09:00,0
+Vasamuseet,Thursday,4,10,10:00,36
+Vasamuseet,Thursday,4,11,11:00,47
+Vasamuseet,Thursday,4,12,12:00,58
+Vasamuseet,Thursday,4,13,13:00,64
+Vasamuseet,Thursday,4,14,14:00,68
+Vasamuseet,Thursday,4,15,15:00,56
+Vasamuseet,Thursday,4,16,16:00,24
+Vasamuseet,Thursday,4,17,17:00,0
+Vasamuseet,Thursday,4,18,18:00,0
+Vasamuseet,Thursday,4,19,19:00,0
+Vasamuseet,Thursday,4,20,20:00,0
+Vasamuseet,Friday,5,9,09:00,0
+Vasamuseet,Friday,5,10,10:00,19
+Vasamuseet,Friday,5,11,11:00,31
+Vasamuseet,Friday,5,12,12:00,43
+Vasamuseet,Friday,5,13,13:00,55
+Vasamuseet,Friday,5,14,14:00,51
+Vasamuseet,Friday,5,15,15:00,43
+Vasamuseet,Friday,5,16,16:00,20
+Vasamuseet,Friday,5,17,17:00,0
+Vasamuseet,Friday,5,18,18:00,0
+Vasamuseet,Friday,5,19,19:00,0
+Vasamuseet,Friday,5,20,20:00,0
+Vasamuseet,Saturday,6,9,09:00,0
+Vasamuseet,Saturday,6,10,10:00,40
+Vasamuseet,Saturday,6,11,11:00,55
+Vasamuseet,Saturday,6,12,12:00,59
+Vasamuseet,Saturday,6,13,13:00,82
+Vasamuseet,Saturday,6,14,14:00,78
+Vasamuseet,Saturday,6,15,15:00,57
+Vasamuseet,Saturday,6,16,16:00,47
+Vasamuseet,Saturday,6,17,17:00,0
+Vasamuseet,Saturday,6,18,18:00,0
+Vasamuseet,Saturday,6,19,19:00,0
+Vasamuseet,Saturday,6,20,20:00,0
+Vasamuseet,Sunday,7,9,09:00,0
+Vasamuseet,Sunday,7,10,10:00,52
+Vasamuseet,Sunday,7,11,11:00,42
+Vasamuseet,Sunday,7,12,12:00,69
+Vasamuseet,Sunday,7,13,13:00,71
+Vasamuseet,Sunday,7,14,14:00,83
+Vasamuseet,Sunday,7,15,15:00,56
+Vasamuseet,Sunday,7,16,16:00,52
+Vasamuseet,Sunday,7,17,17:00,0
+Vasamuseet,Sunday,7,18,18:00,0
+Vasamuseet,Sunday,7,19,19:00,0
+Vasamuseet,Sunday,7,20,20:00,0
+Skansen,Monday,1,9,09:00,0
+Skansen,Monday,1,10,10:00,24
+Skansen,Monday,1,11,11:00,45
+Skansen,Monday,1,12,12:00,45
+Skansen,Monday,1,13,13:00,69
+Skansen,Monday,1,14,14:00,56
+Skansen,Monday,1,15,15:00,40
+Skansen,Monday,1,16,16:00,0
+Skansen,Monday,1,17,17:00,0
+Skansen,Monday,1,18,18:00,0
+Skansen,Monday,1,19,19:00,0
+Skansen,Monday,1,20,20:00,0
+Skansen,Tuesday,2,9,09:00,0
+Skansen,Tuesday,2,10,10:00,39
+Skansen,Tuesday,2,11,11:00,31
+Skansen,Tuesday,2,12,12:00,61
+Skansen,Tuesday,2,13,13:00,54
+Skansen,Tuesday,2,14,14:00,38
+Skansen,Tuesday,2,15,15:00,39
+Skansen,Tuesday,2,16,16:00,0
+Skansen,Tuesday,2,17,17:00,0
+Skansen,Tuesday,2,18,18:00,0
+Skansen,Tuesday,2,19,19:00,0
+Skansen,Tuesday,2,20,20:00,0
+Skansen,Wednesday,3,9,09:00,0
+Skansen,Wednesday,3,10,10:00,35
+Skansen,Wednesday,3,11,11:00,39
+Skansen,Wednesday,3,12,12:00,52
+Skansen,Wednesday,3,13,13:00,67
+Skansen,Wednesday,3,14,14:00,43
+Skansen,Wednesday,3,15,15:00,55
+Skansen,Wednesday,3,16,16:00,0
+Skansen,Wednesday,3,17,17:00,0
+Skansen,Wednesday,3,18,18:00,0
+Skansen,Wednesday,3,19,19:00,0
+Skansen,Wednesday,3,20,20:00,0
+Skansen,Thursday,4,9,09:00,0
+Skansen,Thursday,4,10,10:00,27
+Skansen,Thursday,4,11,11:00,52
+Skansen,Thursday,4,12,12:00,45
+Skansen,Thursday,4,13,13:00,71
+Skansen,Thursday,4,14,14:00,56
+Skansen,Thursday,4,15,15:00,55
+Skansen,Thursday,4,16,16:00,0
+Skansen,Thursday,4,17,17:00,0
+Skansen,Thursday,4,18,18:00,0
+Skansen,Thursday,4,19,19:00,0
+Skansen,Thursday,4,20,20:00,0
+Skansen,Friday,5,9,09:00,0
+Skansen,Friday,5,10,10:00,23
+Skansen,Friday,5,11,11:00,42
+Skansen,Friday,5,12,12:00,48
+Skansen,Friday,5,13,13:00,54
+Skansen,Friday,5,14,14:00,41
+Skansen,Friday,5,15,15:00,55
+Skansen,Friday,5,16,16:00,0
+Skansen,Friday,5,17,17:00,0
+Skansen,Friday,5,18,18:00,0
+Skansen,Friday,5,19,19:00,0
+Skansen,Friday,5,20,20:00,0
+Skansen,Saturday,6,9,09:00,0
+Skansen,Saturday,6,10,10:00,40
+Skansen,Saturday,6,11,11:00,53
+Skansen,Saturday,6,12,12:00,61
+Skansen,Saturday,6,13,13:00,77
+Skansen,Saturday,6,14,14:00,77
+Skansen,Saturday,6,15,15:00,56
+Skansen,Saturday,6,16,16:00,0
+Skansen,Saturday,6,17,17:00,0
+Skansen,Saturday,6,18,18:00,0
+Skansen,Saturday,6,19,19:00,0
+Skansen,Saturday,6,20,20:00,0
+Skansen,Sunday,7,9,09:00,0
+Skansen,Sunday,7,10,10:00,46
+Skansen,Sunday,7,11,11:00,65
+Skansen,Sunday,7,12,12:00,86
+Skansen,Sunday,7,13,13:00,71
+Skansen,Sunday,7,14,14:00,70
+Skansen,Sunday,7,15,15:00,52
+Skansen,Sunday,7,16,16:00,0
+Skansen,Sunday,7,17,17:00,0
+Skansen,Sunday,7,18,18:00,0
+Skansen,Sunday,7,19,19:00,0
+Skansen,Sunday,7,20,20:00,0
+ABBA The Museum,Monday,1,9,09:00,0
+ABBA The Museum,Monday,1,10,10:00,25
+ABBA The Museum,Monday,1,11,11:00,28
+ABBA The Museum,Monday,1,12,12:00,38
+ABBA The Museum,Monday,1,13,13:00,49
+ABBA The Museum,Monday,1,14,14:00,63
+ABBA The Museum,Monday,1,15,15:00,67
+ABBA The Museum,Monday,1,16,16:00,42
+ABBA The Museum,Monday,1,17,17:00,18
+ABBA The Museum,Monday,1,18,18:00,0
+ABBA The Museum,Monday,1,19,19:00,0
+ABBA The Museum,Monday,1,20,20:00,0
+ABBA The Museum,Tuesday,2,9,09:00,0
+ABBA The Museum,Tuesday,2,10,10:00,13
+ABBA The Museum,Tuesday,2,11,11:00,17
+ABBA The Museum,Tuesday,2,12,12:00,51
+ABBA The Museum,Tuesday,2,13,13:00,41
+ABBA The Museum,Tuesday,2,14,14:00,51
+ABBA The Museum,Tuesday,2,15,15:00,51
+ABBA The Museum,Tuesday,2,16,16:00,38
+ABBA The Museum,Tuesday,2,17,17:00,43
+ABBA The Museum,Tuesday,2,18,18:00,0
+ABBA The Museum,Tuesday,2,19,19:00,0
+ABBA The Museum,Tuesday,2,20,20:00,0
+ABBA The Museum,Wednesday,3,9,09:00,0
+ABBA The Museum,Wednesday,3,10,10:00,12
+ABBA The Museum,Wednesday,3,11,11:00,30
+ABBA The Museum,Wednesday,3,12,12:00,42
+ABBA The Museum,Wednesday,3,13,13:00,48
+ABBA The Museum,Wednesday,3,14,14:00,64
+ABBA The Museum,Wednesday,3,15,15:00,49
+ABBA The Museum,Wednesday,3,16,16:00,43
+ABBA The Museum,Wednesday,3,17,17:00,16
+ABBA The Museum,Wednesday,3,18,18:00,0
+ABBA The Museum,Wednesday,3,19,19:00,0
+ABBA The Museum,Wednesday,3,20,20:00,0
+ABBA The Museum,Thursday,4,9,09:00,0
+ABBA The Museum,Thursday,4,10,10:00,12
+ABBA The Museum,Thursday,4,11,11:00,19
+ABBA The Museum,Thursday,4,12,12:00,44
+ABBA The Museum,Thursday,4,13,13:00,61
+ABBA The Museum,Thursday,4,14,14:00,55
+ABBA The Museum,Thursday,4,15,15:00,50
+ABBA The Museum,Thursday,4,16,16:00,39
+ABBA The Museum,Thursday,4,17,17:00,31
+ABBA The Museum,Thursday,4,18,18:00,0
+ABBA The Museum,Thursday,4,19,19:00,0
+ABBA The Museum,Thursday,4,20,20:00,0
+ABBA The Museum,Friday,5,9,09:00,0
+ABBA The Museum,Friday,5,10,10:00,6
+ABBA The Museum,Friday,5,11,11:00,28
+ABBA The Museum,Friday,5,12,12:00,53
+ABBA The Museum,Friday,5,13,13:00,51
+ABBA The Museum,Friday,5,14,14:00,72
+ABBA The Museum,Friday,5,15,15:00,67
+ABBA The Museum,Friday,5,16,16:00,51
+ABBA The Museum,Friday,5,17,17:00,20
+ABBA The Museum,Friday,5,18,18:00,0
+ABBA The Museum,Friday,5,19,19:00,0
+ABBA The Museum,Friday,5,20,20:00,0
+ABBA The Museum,Saturday,6,9,09:00,0
+ABBA The Museum,Saturday,6,10,10:00,29
+ABBA The Museum,Saturday,6,11,11:00,40
+ABBA The Museum,Saturday,6,12,12:00,61
+ABBA The Museum,Saturday,6,13,13:00,58
+ABBA The Museum,Saturday,6,14,14:00,73
+ABBA The Museum,Saturday,6,15,15:00,82
+ABBA The Museum,Saturday,6,16,16:00,68
+ABBA The Museum,Saturday,6,17,17:00,51
+ABBA The Museum,Saturday,6,18,18:00,0
+ABBA The Museum,Saturday,6,19,19:00,0
+ABBA The Museum,Saturday,6,20,20:00,0
+ABBA The Museum,Sunday,7,9,09:00,0
+ABBA The Museum,Sunday,7,10,10:00,29
+ABBA The Museum,Sunday,7,11,11:00,52
+ABBA The Museum,Sunday,7,12,12:00,74
+ABBA The Museum,Sunday,7,13,13:00,72
+ABBA The Museum,Sunday,7,14,14:00,79
+ABBA The Museum,Sunday,7,15,15:00,66
+ABBA The Museum,Sunday,7,16,16:00,71
+ABBA The Museum,Sunday,7,17,17:00,59
+ABBA The Museum,Sunday,7,18,18:00,0
+ABBA The Museum,Sunday,7,19,19:00,0
+ABBA The Museum,Sunday,7,20,20:00,0
+Fotografiska Stockholm,Monday,1,9,09:00,0
+Fotografiska Stockholm,Monday,1,10,10:00,0
+Fotografiska Stockholm,Monday,1,11,11:00,0
+Fotografiska Stockholm,Monday,1,12,12:00,15
+Fotografiska Stockholm,Monday,1,13,13:00,37
+Fotografiska Stockholm,Monday,1,14,14:00,27
+Fotografiska Stockholm,Monday,1,15,15:00,58
+Fotografiska Stockholm,Monday,1,16,16:00,44
+Fotografiska Stockholm,Monday,1,17,17:00,72
+Fotografiska Stockholm,Monday,1,18,18:00,45
+Fotografiska Stockholm,Monday,1,19,19:00,29
+Fotografiska Stockholm,Monday,1,20,20:00,32
+Fotografiska Stockholm,Tuesday,2,9,09:00,0
+Fotografiska Stockholm,Tuesday,2,10,10:00,0
+Fotografiska Stockholm,Tuesday,2,11,11:00,7
+Fotografiska Stockholm,Tuesday,2,12,12:00,14
+Fotografiska Stockholm,Tuesday,2,13,13:00,37
+Fotografiska Stockholm,Tuesday,2,14,14:00,27
+Fotografiska Stockholm,Tuesday,2,15,15:00,47
+Fotografiska Stockholm,Tuesday,2,16,16:00,51
+Fotografiska Stockholm,Tuesday,2,17,17:00,56
+Fotografiska Stockholm,Tuesday,2,18,18:00,34
+Fotografiska Stockholm,Tuesday,2,19,19:00,27
+Fotografiska Stockholm,Tuesday,2,20,20:00,23
+Fotografiska Stockholm,Wednesday,3,9,09:00,0
+Fotografiska Stockholm,Wednesday,3,10,10:00,0
+Fotografiska Stockholm,Wednesday,3,11,11:00,0
+Fotografiska Stockholm,Wednesday,3,12,12:00,13
+Fotografiska Stockholm,Wednesday,3,13,13:00,18
+Fotografiska Stockholm,Wednesday,3,14,14:00,37
+Fotografiska Stockholm,Wednesday,3,15,15:00,32
+Fotografiska Stockholm,Wednesday,3,16,16:00,70
+Fotografiska Stockholm,Wednesday,3,17,17:00,53
+Fotografiska Stockholm,Wednesday,3,18,18:00,43
+Fotografiska Stockholm,Wednesday,3,19,19:00,39
+Fotografiska Stockholm,Wednesday,3,20,20:00,20
+Fotografiska Stockholm,Thursday,4,9,09:00,0
+Fotografiska Stockholm,Thursday,4,10,10:00,0
+Fotografiska Stockholm,Thursday,4,11,11:00,8
+Fotografiska Stockholm,Thursday,4,12,12:00,6
+Fotografiska Stockholm,Thursday,4,13,13:00,30
+Fotografiska Stockholm,Thursday,4,14,14:00,39
+Fotografiska Stockholm,Thursday,4,15,15:00,33
+Fotografiska Stockholm,Thursday,4,16,16:00,50
+Fotografiska Stockholm,Thursday,4,17,17:00,55
+Fotografiska Stockholm,Thursday,4,18,18:00,49
+Fotografiska Stockholm,Thursday,4,19,19:00,41
+Fotografiska Stockholm,Thursday,4,20,20:00,12
+Fotografiska Stockholm,Friday,5,9,09:00,0
+Fotografiska Stockholm,Friday,5,10,10:00,0
+Fotografiska Stockholm,Friday,5,11,11:00,11
+Fotografiska Stockholm,Friday,5,12,12:00,0
+Fotografiska Stockholm,Friday,5,13,13:00,32
+Fotografiska Stockholm,Friday,5,14,14:00,39
+Fotografiska Stockholm,Friday,5,15,15:00,59
+Fotografiska Stockholm,Friday,5,16,16:00,47
+Fotografiska Stockholm,Friday,5,17,17:00,69
+Fotografiska Stockholm,Friday,5,18,18:00,56
+Fotografiska Stockholm,Friday,5,19,19:00,38
+Fotografiska Stockholm,Friday,5,20,20:00,37
+Fotografiska Stockholm,Saturday,6,9,09:00,0
+Fotografiska Stockholm,Saturday,6,10,10:00,14
+Fotografiska Stockholm,Saturday,6,11,11:00,5
+Fotografiska Stockholm,Saturday,6,12,12:00,34
+Fotografiska Stockholm,Saturday,6,13,13:00,41
+Fotografiska Stockholm,Saturday,6,14,14:00,54
+Fotografiska Stockholm,Saturday,6,15,15:00,76
+Fotografiska Stockholm,Saturday,6,16,16:00,69
+Fotografiska Stockholm,Saturday,6,17,17:00,77
+Fotografiska Stockholm,Saturday,6,18,18:00,59
+Fotografiska Stockholm,Saturday,6,19,19:00,43
+Fotografiska Stockholm,Saturday,6,20,20:00,40
+Fotografiska Stockholm,Sunday,7,9,09:00,0
+Fotografiska Stockholm,Sunday,7,10,10:00,18
+Fotografiska Stockholm,Sunday,7,11,11:00,23
+Fotografiska Stockholm,Sunday,7,12,12:00,39
+Fotografiska Stockholm,Sunday,7,13,13:00,39
+Fotografiska Stockholm,Sunday,7,14,14:00,56
+Fotografiska Stockholm,Sunday,7,15,15:00,65
+Fotografiska Stockholm,Sunday,7,16,16:00,81
+Fotografiska Stockholm,Sunday,7,17,17:00,86
+Fotografiska Stockholm,Sunday,7,18,18:00,70
+Fotografiska Stockholm,Sunday,7,19,19:00,55
+Fotografiska Stockholm,Sunday,7,20,20:00,36
+Nordiska museet,Monday,1,9,09:00,0
+Nordiska museet,Monday,1,10,10:00,34
+Nordiska museet,Monday,1,11,11:00,48
+Nordiska museet,Monday,1,12,12:00,37
+Nordiska museet,Monday,1,13,13:00,64
+Nordiska museet,Monday,1,14,14:00,65
+Nordiska museet,Monday,1,15,15:00,41
+Nordiska museet,Monday,1,16,16:00,27
+Nordiska museet,Monday,1,17,17:00,0
+Nordiska museet,Monday,1,18,18:00,0
+Nordiska museet,Monday,1,19,19:00,0
+Nordiska museet,Monday,1,20,20:00,0
+Nordiska museet,Tuesday,2,9,09:00,0
+Nordiska museet,Tuesday,2,10,10:00,31
+Nordiska museet,Tuesday,2,11,11:00,30
+Nordiska museet,Tuesday,2,12,12:00,47
+Nordiska museet,Tuesday,2,13,13:00,53
+Nordiska museet,Tuesday,2,14,14:00,71
+Nordiska museet,Tuesday,2,15,15:00,49
+Nordiska museet,Tuesday,2,16,16:00,39
+Nordiska museet,Tuesday,2,17,17:00,0
+Nordiska museet,Tuesday,2,18,18:00,0
+Nordiska museet,Tuesday,2,19,19:00,0
+Nordiska museet,Tuesday,2,20,20:00,0
+Nordiska museet,Wednesday,3,9,09:00,0
+Nordiska museet,Wednesday,3,10,10:00,30
+Nordiska museet,Wednesday,3,11,11:00,42
+Nordiska museet,Wednesday,3,12,12:00,54
+Nordiska museet,Wednesday,3,13,13:00,59
+Nordiska museet,Wednesday,3,14,14:00,45
+Nordiska museet,Wednesday,3,15,15:00,58
+Nordiska museet,Wednesday,3,16,16:00,21
+Nordiska museet,Wednesday,3,17,17:00,0
+Nordiska museet,Wednesday,3,18,18:00,0
+Nordiska museet,Wednesday,3,19,19:00,0
+Nordiska museet,Wednesday,3,20,20:00,0
+Nordiska museet,Thursday,4,9,09:00,0
+Nordiska museet,Thursday,4,10,10:00,10
+Nordiska museet,Thursday,4,11,11:00,27
+Nordiska museet,Thursday,4,12,12:00,47
+Nordiska museet,Thursday,4,13,13:00,66
+Nordiska museet,Thursday,4,14,14:00,51
+Nordiska museet,Thursday,4,15,15:00,56
+Nordiska museet,Thursday,4,16,16:00,41
+Nordiska museet,Thursday,4,17,17:00,0
+Nordiska museet,Thursday,4,18,18:00,0
+Nordiska museet,Thursday,4,19,19:00,0
+Nordiska museet,Thursday,4,20,20:00,0
+Nordiska museet,Friday,5,9,09:00,0
+Nordiska museet,Friday,5,10,10:00,19
+Nordiska museet,Friday,5,11,11:00,21
+Nordiska museet,Friday,5,12,12:00,58
+Nordiska museet,Friday,5,13,13:00,51
+Nordiska museet,Friday,5,14,14:00,60
+Nordiska museet,Friday,5,15,15:00,33
+Nordiska museet,Friday,5,16,16:00,36
+Nordiska museet,Friday,5,17,17:00,0
+Nordiska museet,Friday,5,18,18:00,0
+Nordiska museet,Friday,5,19,19:00,0
+Nordiska museet,Friday,5,20,20:00,0
+Nordiska museet,Saturday,6,9,09:00,0
+Nordiska museet,Saturday,6,10,10:00,50
+Nordiska museet,Saturday,6,11,11:00,61
+Nordiska museet,Saturday,6,12,12:00,69
+Nordiska museet,Saturday,6,13,13:00,71
+Nordiska museet,Saturday,6,14,14:00,84
+Nordiska museet,Saturday,6,15,15:00,52
+Nordiska museet,Saturday,6,16,16:00,46
+Nordiska museet,Saturday,6,17,17:00,0
+Nordiska museet,Saturday,6,18,18:00,0
+Nordiska museet,Saturday,6,19,19:00,0
+Nordiska museet,Saturday,6,20,20:00,0
+Nordiska museet,Sunday,7,9,09:00,0
+Nordiska museet,Sunday,7,10,10:00,56
+Nordiska museet,Sunday,7,11,11:00,49
+Nordiska museet,Sunday,7,12,12:00,59
+Nordiska museet,Sunday,7,13,13:00,79
+Nordiska museet,Sunday,7,14,14:00,89
+Nordiska museet,Sunday,7,15,15:00,63
+Nordiska museet,Sunday,7,16,16:00,69
+Nordiska museet,Sunday,7,17,17:00,0
+Nordiska museet,Sunday,7,18,18:00,0
+Nordiska museet,Sunday,7,19,19:00,0
+Nordiska museet,Sunday,7,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,11,11:00,35
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,12,12:00,54
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,13,13:00,40
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,14,14:00,77
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,15,15:00,57
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,16,16:00,54
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Monday,1,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,11,11:00,16
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,12,12:00,48
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,13,13:00,47
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,14,14:00,59
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,15,15:00,38
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,16,16:00,42
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Tuesday,2,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,11,11:00,33
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,12,12:00,54
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,13,13:00,55
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,14,14:00,56
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,15,15:00,52
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,16,16:00,48
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Wednesday,3,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,11,11:00,17
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,12,12:00,36
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,13,13:00,58
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,14,14:00,63
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,15,15:00,53
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,16,16:00,29
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Thursday,4,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,11,11:00,14
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,12,12:00,48
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,13,13:00,54
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,14,14:00,71
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,15,15:00,55
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,16,16:00,55
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Friday,5,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,11,11:00,51
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,12,12:00,53
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,13,13:00,85
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,14,14:00,77
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,15,15:00,62
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,16,16:00,70
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Saturday,6,20,20:00,0
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,9,09:00,0
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,10,10:00,0
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,11,11:00,41
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,12,12:00,63
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,13,13:00,70
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,14,14:00,88
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,15,15:00,78
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,16,16:00,72
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,17,17:00,0
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,18,18:00,0
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,19,19:00,0
+Naturhistoriska riksmuseet och Cosmonova,Sunday,7,20,20:00,0
+Tekniska museet,Monday,1,9,09:00,7
+Tekniska museet,Monday,1,10,10:00,0
+Tekniska museet,Monday,1,11,11:00,22
+Tekniska museet,Monday,1,12,12:00,36
+Tekniska museet,Monday,1,13,13:00,39
+Tekniska museet,Monday,1,14,14:00,64
+Tekniska museet,Monday,1,15,15:00,71
+Tekniska museet,Monday,1,16,16:00,39
+Tekniska museet,Monday,1,17,17:00,31
+Tekniska museet,Monday,1,18,18:00,20
+Tekniska museet,Monday,1,19,19:00,17
+Tekniska museet,Monday,1,20,20:00,0
+Tekniska museet,Tuesday,2,9,09:00,0
+Tekniska museet,Tuesday,2,10,10:00,0
+Tekniska museet,Tuesday,2,11,11:00,9
+Tekniska museet,Tuesday,2,12,12:00,31
+Tekniska museet,Tuesday,2,13,13:00,34
+Tekniska museet,Tuesday,2,14,14:00,64
+Tekniska museet,Tuesday,2,15,15:00,67
+Tekniska museet,Tuesday,2,16,16:00,55
+Tekniska museet,Tuesday,2,17,17:00,31
+Tekniska museet,Tuesday,2,18,18:00,42
+Tekniska museet,Tuesday,2,19,19:00,5
+Tekniska museet,Tuesday,2,20,20:00,0
+Tekniska museet,Wednesday,3,9,09:00,0
+Tekniska museet,Wednesday,3,10,10:00,6
+Tekniska museet,Wednesday,3,11,11:00,28
+Tekniska museet,Wednesday,3,12,12:00,15
+Tekniska museet,Wednesday,3,13,13:00,31
+Tekniska museet,Wednesday,3,14,14:00,57
+Tekniska museet,Wednesday,3,15,15:00,50
+Tekniska museet,Wednesday,3,16,16:00,43
+Tekniska museet,Wednesday,3,17,17:00,37
+Tekniska museet,Wednesday,3,18,18:00,14
+Tekniska museet,Wednesday,3,19,19:00,7
+Tekniska museet,Wednesday,3,20,20:00,0
+Tekniska museet,Thursday,4,9,09:00,0
+Tekniska museet,Thursday,4,10,10:00,0
+Tekniska museet,Thursday,4,11,11:00,2
+Tekniska museet,Thursday,4,12,12:00,15
+Tekniska museet,Thursday,4,13,13:00,34
+Tekniska museet,Thursday,4,14,14:00,47
+Tekniska museet,Thursday,4,15,15:00,69
+Tekniska museet,Thursday,4,16,16:00,44
+Tekniska museet,Thursday,4,17,17:00,36
+Tekniska museet,Thursday,4,18,18:00,26
+Tekniska museet,Thursday,4,19,19:00,17
+Tekniska museet,Thursday,4,20,20:00,13
+Tekniska museet,Friday,5,9,09:00,2
+Tekniska museet,Friday,5,10,10:00,17
+Tekniska museet,Friday,5,11,11:00,22
+Tekniska museet,Friday,5,12,12:00,24
+Tekniska museet,Friday,5,13,13:00,34
+Tekniska museet,Friday,5,14,14:00,52
+Tekniska museet,Friday,5,15,15:00,60
+Tekniska museet,Friday,5,16,16:00,46
+Tekniska museet,Friday,5,17,17:00,53
+Tekniska museet,Friday,5,18,18:00,29
+Tekniska museet,Friday,5,19,19:00,16
+Tekniska museet,Friday,5,20,20:00,16
+Tekniska museet,Saturday,6,9,09:00,24
+Tekniska museet,Saturday,6,10,10:00,35
+Tekniska museet,Saturday,6,11,11:00,35
+Tekniska museet,Saturday,6,12,12:00,43
+Tekniska museet,Saturday,6,13,13:00,53
+Tekniska museet,Saturday,6,14,14:00,58
+Tekniska museet,Saturday,6,15,15:00,83
+Tekniska museet,Saturday,6,16,16:00,70
+Tekniska museet,Saturday,6,17,17:00,74
+Tekniska museet,Saturday,6,18,18:00,34
+Tekniska museet,Saturday,6,19,19:00,43
+Tekniska museet,Saturday,6,20,20:00,30
+Tekniska museet,Sunday,7,9,09:00,11
+Tekniska museet,Sunday,7,10,10:00,15
+Tekniska museet,Sunday,7,11,11:00,33
+Tekniska museet,Sunday,7,12,12:00,58
+Tekniska museet,Sunday,7,13,13:00,50
+Tekniska museet,Sunday,7,14,14:00,75
+Tekniska museet,Sunday,7,15,15:00,95
+Tekniska museet,Sunday,7,16,16:00,74
+Tekniska museet,Sunday,7,17,17:00,71
+Tekniska museet,Sunday,7,18,18:00,63
+Tekniska museet,Sunday,7,19,19:00,35
+Tekniska museet,Sunday,7,20,20:00,10
+Nationalmuseum,Monday,1,9,09:00,0
+Nationalmuseum,Monday,1,10,10:00,0
+Nationalmuseum,Monday,1,11,11:00,26
+Nationalmuseum,Monday,1,12,12:00,48
+Nationalmuseum,Monday,1,13,13:00,55
+Nationalmuseum,Monday,1,14,14:00,61
+Nationalmuseum,Monday,1,15,15:00,60
+Nationalmuseum,Monday,1,16,16:00,32
+Nationalmuseum,Monday,1,17,17:00,0
+Nationalmuseum,Monday,1,18,18:00,0
+Nationalmuseum,Monday,1,19,19:00,0
+Nationalmuseum,Monday,1,20,20:00,0
+Nationalmuseum,Tuesday,2,9,09:00,0
+Nationalmuseum,Tuesday,2,10,10:00,0
+Nationalmuseum,Tuesday,2,11,11:00,39
+Nationalmuseum,Tuesday,2,12,12:00,46
+Nationalmuseum,Tuesday,2,13,13:00,55
+Nationalmuseum,Tuesday,2,14,14:00,70
+Nationalmuseum,Tuesday,2,15,15:00,41
+Nationalmuseum,Tuesday,2,16,16:00,48
+Nationalmuseum,Tuesday,2,17,17:00,0
+Nationalmuseum,Tuesday,2,18,18:00,0
+Nationalmuseum,Tuesday,2,19,19:00,0
+Nationalmuseum,Tuesday,2,20,20:00,0
+Nationalmuseum,Wednesday,3,9,09:00,0
+Nationalmuseum,Wednesday,3,10,10:00,0
+Nationalmuseum,Wednesday,3,11,11:00,16
+Nationalmuseum,Wednesday,3,12,12:00,51
+Nationalmuseum,Wednesday,3,13,13:00,67
+Nationalmuseum,Wednesday,3,14,14:00,73
+Nationalmuseum,Wednesday,3,15,15:00,44
+Nationalmuseum,Wednesday,3,16,16:00,51
+Nationalmuseum,Wednesday,3,17,17:00,0
+Nationalmuseum,Wednesday,3,18,18:00,0
+Nationalmuseum,Wednesday,3,19,19:00,0
+Nationalmuseum,Wednesday,3,20,20:00,0
+Nationalmuseum,Thursday,4,9,09:00,0
+Nationalmuseum,Thursday,4,10,10:00,0
+Nationalmuseum,Thursday,4,11,11:00,40
+Nationalmuseum,Thursday,4,12,12:00,47
+Nationalmuseum,Thursday,4,13,13:00,47
+Nationalmuseum,Thursday,4,14,14:00,57
+Nationalmuseum,Thursday,4,15,15:00,41
+Nationalmuseum,Thursday,4,16,16:00,27
+Nationalmuseum,Thursday,4,17,17:00,0
+Nationalmuseum,Thursday,4,18,18:00,0
+Nationalmuseum,Thursday,4,19,19:00,0
+Nationalmuseum,Thursday,4,20,20:00,0
+Nationalmuseum,Friday,5,9,09:00,0
+Nationalmuseum,Friday,5,10,10:00,0
+Nationalmuseum,Friday,5,11,11:00,22
+Nationalmuseum,Friday,5,12,12:00,52
+Nationalmuseum,Friday,5,13,13:00,60
+Nationalmuseum,Friday,5,14,14:00,75
+Nationalmuseum,Friday,5,15,15:00,44
+Nationalmuseum,Friday,5,16,16:00,41
+Nationalmuseum,Friday,5,17,17:00,0
+Nationalmuseum,Friday,5,18,18:00,0
+Nationalmuseum,Friday,5,19,19:00,0
+Nationalmuseum,Friday,5,20,20:00,0
+Nationalmuseum,Saturday,6,9,09:00,0
+Nationalmuseum,Saturday,6,10,10:00,0
+Nationalmuseum,Saturday,6,11,11:00,54
+Nationalmuseum,Saturday,6,12,12:00,60
+Nationalmuseum,Saturday,6,13,13:00,87
+Nationalmuseum,Saturday,6,14,14:00,92
+Nationalmuseum,Saturday,6,15,15:00,65
+Nationalmuseum,Saturday,6,16,16:00,51
+Nationalmuseum,Saturday,6,17,17:00,0
+Nationalmuseum,Saturday,6,18,18:00,0
+Nationalmuseum,Saturday,6,19,19:00,0
+Nationalmuseum,Saturday,6,20,20:00,0
+Nationalmuseum,Sunday,7,9,09:00,0
+Nationalmuseum,Sunday,7,10,10:00,0
+Nationalmuseum,Sunday,7,11,11:00,34
+Nationalmuseum,Sunday,7,12,12:00,64
+Nationalmuseum,Sunday,7,13,13:00,59
+Nationalmuseum,Sunday,7,14,14:00,81
+Nationalmuseum,Sunday,7,15,15:00,65
+Nationalmuseum,Sunday,7,16,16:00,66
+Nationalmuseum,Sunday,7,17,17:00,0
+Nationalmuseum,Sunday,7,18,18:00,0
+Nationalmuseum,Sunday,7,19,19:00,0
+Nationalmuseum,Sunday,7,20,20:00,0
+Nobelprismuseet,Monday,1,9,09:00,0
+Nobelprismuseet,Monday,1,10,10:00,0
+Nobelprismuseet,Monday,1,11,11:00,41
+Nobelprismuseet,Monday,1,12,12:00,35
+Nobelprismuseet,Monday,1,13,13:00,40
+Nobelprismuseet,Monday,1,14,14:00,52
+Nobelprismuseet,Monday,1,15,15:00,49
+Nobelprismuseet,Monday,1,16,16:00,38
+Nobelprismuseet,Monday,1,17,17:00,0
+Nobelprismuseet,Monday,1,18,18:00,0
+Nobelprismuseet,Monday,1,19,19:00,0
+Nobelprismuseet,Monday,1,20,20:00,0
+Nobelprismuseet,Tuesday,2,9,09:00,0
+Nobelprismuseet,Tuesday,2,10,10:00,0
+Nobelprismuseet,Tuesday,2,11,11:00,16
+Nobelprismuseet,Tuesday,2,12,12:00,52
+Nobelprismuseet,Tuesday,2,13,13:00,62
+Nobelprismuseet,Tuesday,2,14,14:00,58
+Nobelprismuseet,Tuesday,2,15,15:00,38
+Nobelprismuseet,Tuesday,2,16,16:00,49
+Nobelprismuseet,Tuesday,2,17,17:00,0
+Nobelprismuseet,Tuesday,2,18,18:00,0
+Nobelprismuseet,Tuesday,2,19,19:00,0
+Nobelprismuseet,Tuesday,2,20,20:00,0
+Nobelprismuseet,Wednesday,3,9,09:00,0
+Nobelprismuseet,Wednesday,3,10,10:00,0
+Nobelprismuseet,Wednesday,3,11,11:00,42
+Nobelprismuseet,Wednesday,3,12,12:00,32
+Nobelprismuseet,Wednesday,3,13,13:00,61
+Nobelprismuseet,Wednesday,3,14,14:00,70
+Nobelprismuseet,Wednesday,3,15,15:00,44
+Nobelprismuseet,Wednesday,3,16,16:00,51
+Nobelprismuseet,Wednesday,3,17,17:00,0
+Nobelprismuseet,Wednesday,3,18,18:00,0
+Nobelprismuseet,Wednesday,3,19,19:00,0
+Nobelprismuseet,Wednesday,3,20,20:00,0
+Nobelprismuseet,Thursday,4,9,09:00,0
+Nobelprismuseet,Thursday,4,10,10:00,0
+Nobelprismuseet,Thursday,4,11,11:00,24
+Nobelprismuseet,Thursday,4,12,12:00,54
+Nobelprismuseet,Thursday,4,13,13:00,51
+Nobelprismuseet,Thursday,4,14,14:00,62
+Nobelprismuseet,Thursday,4,15,15:00,63
+Nobelprismuseet,Thursday,4,16,16:00,37
+Nobelprismuseet,Thursday,4,17,17:00,0
+Nobelprismuseet,Thursday,4,18,18:00,0
+Nobelprismuseet,Thursday,4,19,19:00,0
+Nobelprismuseet,Thursday,4,20,20:00,0
+Nobelprismuseet,Friday,5,9,09:00,0
+Nobelprismuseet,Friday,5,10,10:00,0
+Nobelprismuseet,Friday,5,11,11:00,30
+Nobelprismuseet,Friday,5,12,12:00,34
+Nobelprismuseet,Friday,5,13,13:00,48
+Nobelprismuseet,Friday,5,14,14:00,64
+Nobelprismuseet,Friday,5,15,15:00,53
+Nobelprismuseet,Friday,5,16,16:00,40
+Nobelprismuseet,Friday,5,17,17:00,0
+Nobelprismuseet,Friday,5,18,18:00,0
+Nobelprismuseet,Friday,5,19,19:00,0
+Nobelprismuseet,Friday,5,20,20:00,0
+Nobelprismuseet,Saturday,6,9,09:00,0
+Nobelprismuseet,Saturday,6,10,10:00,0
+Nobelprismuseet,Saturday,6,11,11:00,47
+Nobelprismuseet,Saturday,6,12,12:00,66
+Nobelprismuseet,Saturday,6,13,13:00,84
+Nobelprismuseet,Saturday,6,14,14:00,74
+Nobelprismuseet,Saturday,6,15,15:00,66
+Nobelprismuseet,Saturday,6,16,16:00,51
+Nobelprismuseet,Saturday,6,17,17:00,0
+Nobelprismuseet,Saturday,6,18,18:00,0
+Nobelprismuseet,Saturday,6,19,19:00,0
+Nobelprismuseet,Saturday,6,20,20:00,0
+Nobelprismuseet,Sunday,7,9,09:00,0
+Nobelprismuseet,Sunday,7,10,10:00,0
+Nobelprismuseet,Sunday,7,11,11:00,47
+Nobelprismuseet,Sunday,7,12,12:00,56
+Nobelprismuseet,Sunday,7,13,13:00,80
+Nobelprismuseet,Sunday,7,14,14:00,70
+Nobelprismuseet,Sunday,7,15,15:00,62
+Nobelprismuseet,Sunday,7,16,16:00,52
+Nobelprismuseet,Sunday,7,17,17:00,0
+Nobelprismuseet,Sunday,7,18,18:00,0
+Nobelprismuseet,Sunday,7,19,19:00,0
+Nobelprismuseet,Sunday,7,20,20:00,0
+Historiska museet,Monday,1,9,09:00,0
+Historiska museet,Monday,1,10,10:00,0
+Historiska museet,Monday,1,11,11:00,14
+Historiska museet,Monday,1,12,12:00,44
+Historiska museet,Monday,1,13,13:00,50
+Historiska museet,Monday,1,14,14:00,63
+Historiska museet,Monday,1,15,15:00,49
+Historiska museet,Monday,1,16,16:00,28
+Historiska museet,Monday,1,17,17:00,0
+Historiska museet,Monday,1,18,18:00,0
+Historiska museet,Monday,1,19,19:00,0
+Historiska museet,Monday,1,20,20:00,0
+Historiska museet,Tuesday,2,9,09:00,0
+Historiska museet,Tuesday,2,10,10:00,0
+Historiska museet,Tuesday,2,11,11:00,15
+Historiska museet,Tuesday,2,12,12:00,54
+Historiska museet,Tuesday,2,13,13:00,43
+Historiska museet,Tuesday,2,14,14:00,77
+Historiska museet,Tuesday,2,15,15:00,65
+Historiska museet,Tuesday,2,16,16:00,30
+Historiska museet,Tuesday,2,17,17:00,0
+Historiska museet,Tuesday,2,18,18:00,0
+Historiska museet,Tuesday,2,19,19:00,0
+Historiska museet,Tuesday,2,20,20:00,0
+Historiska museet,Wednesday,3,9,09:00,0
+Historiska museet,Wednesday,3,10,10:00,0
+Historiska museet,Wednesday,3,11,11:00,38
+Historiska museet,Wednesday,3,12,12:00,41
+Historiska museet,Wednesday,3,13,13:00,58
+Historiska museet,Wednesday,3,14,14:00,62
+Historiska museet,Wednesday,3,15,15:00,41
+Historiska museet,Wednesday,3,16,16:00,37
+Historiska museet,Wednesday,3,17,17:00,0
+Historiska museet,Wednesday,3,18,18:00,0
+Historiska museet,Wednesday,3,19,19:00,0
+Historiska museet,Wednesday,3,20,20:00,0
+Historiska museet,Thursday,4,9,09:00,0
+Historiska museet,Thursday,4,10,10:00,0
+Historiska museet,Thursday,4,11,11:00,27
+Historiska museet,Thursday,4,12,12:00,54
+Historiska museet,Thursday,4,13,13:00,48
+Historiska museet,Thursday,4,14,14:00,54
+Historiska museet,Thursday,4,15,15:00,62
+Historiska museet,Thursday,4,16,16:00,41
+Historiska museet,Thursday,4,17,17:00,0
+Historiska museet,Thursday,4,18,18:00,0
+Historiska museet,Thursday,4,19,19:00,0
+Historiska museet,Thursday,4,20,20:00,0
+Historiska museet,Friday,5,9,09:00,0
+Historiska museet,Friday,5,10,10:00,0
+Historiska museet,Friday,5,11,11:00,20
+Historiska museet,Friday,5,12,12:00,47
+Historiska museet,Friday,5,13,13:00,54
+Historiska museet,Friday,5,14,14:00,52
+Historiska museet,Friday,5,15,15:00,40
+Historiska museet,Friday,5,16,16:00,48
+Historiska museet,Friday,5,17,17:00,0
+Historiska museet,Friday,5,18,18:00,0
+Historiska museet,Friday,5,19,19:00,0
+Historiska museet,Friday,5,20,20:00,0
+Historiska museet,Saturday,6,9,09:00,0
+Historiska museet,Saturday,6,10,10:00,0
+Historiska museet,Saturday,6,11,11:00,46
+Historiska museet,Saturday,6,12,12:00,61
+Historiska museet,Saturday,6,13,13:00,63
+Historiska museet,Saturday,6,14,14:00,91
+Historiska museet,Saturday,6,15,15:00,60
+Historiska museet,Saturday,6,16,16:00,62
+Historiska museet,Saturday,6,17,17:00,0
+Historiska museet,Saturday,6,18,18:00,0
+Historiska museet,Saturday,6,19,19:00,0
+Historiska museet,Saturday,6,20,20:00,0
+Historiska museet,Sunday,7,9,09:00,0
+Historiska museet,Sunday,7,10,10:00,0
+Historiska museet,Sunday,7,11,11:00,49
+Historiska museet,Sunday,7,12,12:00,53
+Historiska museet,Sunday,7,13,13:00,74
+Historiska museet,Sunday,7,14,14:00,73
+Historiska museet,Sunday,7,15,15:00,73
+Historiska museet,Sunday,7,16,16:00,59
+Historiska museet,Sunday,7,17,17:00,0
+Historiska museet,Sunday,7,18,18:00,0
+Historiska museet,Sunday,7,19,19:00,0
+Historiska museet,Sunday,7,20,20:00,0
+The Viking Museum,Monday,1,9,09:00,0
+The Viking Museum,Monday,1,10,10:00,0
+The Viking Museum,Monday,1,11,11:00,36
+The Viking Museum,Monday,1,12,12:00,29
+The Viking Museum,Monday,1,13,13:00,40
+The Viking Museum,Monday,1,14,14:00,72
+The Viking Museum,Monday,1,15,15:00,44
+The Viking Museum,Monday,1,16,16:00,40
+The Viking Museum,Monday,1,17,17:00,0
+The Viking Museum,Monday,1,18,18:00,0
+The Viking Museum,Monday,1,19,19:00,0
+The Viking Museum,Monday,1,20,20:00,0
+The Viking Museum,Tuesday,2,9,09:00,0
+The Viking Museum,Tuesday,2,10,10:00,0
+The Viking Museum,Tuesday,2,11,11:00,30
+The Viking Museum,Tuesday,2,12,12:00,28
+The Viking Museum,Tuesday,2,13,13:00,54
+The Viking Museum,Tuesday,2,14,14:00,67
+The Viking Museum,Tuesday,2,15,15:00,58
+The Viking Museum,Tuesday,2,16,16:00,40
+The Viking Museum,Tuesday,2,17,17:00,0
+The Viking Museum,Tuesday,2,18,18:00,0
+The Viking Museum,Tuesday,2,19,19:00,0
+The Viking Museum,Tuesday,2,20,20:00,0
+The Viking Museum,Wednesday,3,9,09:00,0
+The Viking Museum,Wednesday,3,10,10:00,0
+The Viking Museum,Wednesday,3,11,11:00,27
+The Viking Museum,Wednesday,3,12,12:00,36
+The Viking Museum,Wednesday,3,13,13:00,60
+The Viking Museum,Wednesday,3,14,14:00,51
+The Viking Museum,Wednesday,3,15,15:00,62
+The Viking Museum,Wednesday,3,16,16:00,38
+The Viking Museum,Wednesday,3,17,17:00,0
+The Viking Museum,Wednesday,3,18,18:00,0
+The Viking Museum,Wednesday,3,19,19:00,0
+The Viking Museum,Wednesday,3,20,20:00,0
+The Viking Museum,Thursday,4,9,09:00,0
+The Viking Museum,Thursday,4,10,10:00,0
+The Viking Museum,Thursday,4,11,11:00,28
+The Viking Museum,Thursday,4,12,12:00,26
+The Viking Museum,Thursday,4,13,13:00,40
+The Viking Museum,Thursday,4,14,14:00,52
+The Viking Museum,Thursday,4,15,15:00,46
+The Viking Museum,Thursday,4,16,16:00,38
+The Viking Museum,Thursday,4,17,17:00,0
+The Viking Museum,Thursday,4,18,18:00,0
+The Viking Museum,Thursday,4,19,19:00,0
+The Viking Museum,Thursday,4,20,20:00,0
+The Viking Museum,Friday,5,9,09:00,0
+The Viking Museum,Friday,5,10,10:00,0
+The Viking Museum,Friday,5,11,11:00,14
+The Viking Museum,Friday,5,12,12:00,31
+The Viking Museum,Friday,5,13,13:00,50
+The Viking Museum,Friday,5,14,14:00,60
+The Viking Museum,Friday,5,15,15:00,45
+The Viking Museum,Friday,5,16,16:00,45
+The Viking Museum,Friday,5,17,17:00,0
+The Viking Museum,Friday,5,18,18:00,0
+The Viking Museum,Friday,5,19,19:00,0
+The Viking Museum,Friday,5,20,20:00,0
+The Viking Museum,Saturday,6,9,09:00,0
+The Viking Museum,Saturday,6,10,10:00,0
+The Viking Museum,Saturday,6,11,11:00,46
+The Viking Museum,Saturday,6,12,12:00,70
+The Viking Museum,Saturday,6,13,13:00,72
+The Viking Museum,Saturday,6,14,14:00,75
+The Viking Museum,Saturday,6,15,15:00,82
+The Viking Museum,Saturday,6,16,16:00,73
+The Viking Museum,Saturday,6,17,17:00,0
+The Viking Museum,Saturday,6,18,18:00,0
+The Viking Museum,Saturday,6,19,19:00,0
+The Viking Museum,Saturday,6,20,20:00,0
+The Viking Museum,Sunday,7,9,09:00,0
+The Viking Museum,Sunday,7,10,10:00,0
+The Viking Museum,Sunday,7,11,11:00,34
+The Viking Museum,Sunday,7,12,12:00,66
+The Viking Museum,Sunday,7,13,13:00,58
+The Viking Museum,Sunday,7,14,14:00,76
+The Viking Museum,Sunday,7,15,15:00,74
+The Viking Museum,Sunday,7,16,16:00,50
+The Viking Museum,Sunday,7,17,17:00,0
+The Viking Museum,Sunday,7,18,18:00,0
+The Viking Museum,Sunday,7,19,19:00,0
+The Viking Museum,Sunday,7,20,20:00,0
+Paradox Museum Stockholm,Monday,1,9,09:00,0
+Paradox Museum Stockholm,Monday,1,10,10:00,11
+Paradox Museum Stockholm,Monday,1,11,11:00,20
+Paradox Museum Stockholm,Monday,1,12,12:00,47
+Paradox Museum Stockholm,Monday,1,13,13:00,59
+Paradox Museum Stockholm,Monday,1,14,14:00,67
+Paradox Museum Stockholm,Monday,1,15,15:00,68
+Paradox Museum Stockholm,Monday,1,16,16:00,61
+Paradox Museum Stockholm,Monday,1,17,17:00,49
+Paradox Museum Stockholm,Monday,1,18,18:00,21
+Paradox Museum Stockholm,Monday,1,19,19:00,0
+Paradox Museum Stockholm,Monday,1,20,20:00,0
+Paradox Museum Stockholm,Tuesday,2,9,09:00,0
+Paradox Museum Stockholm,Tuesday,2,10,10:00,0
+Paradox Museum Stockholm,Tuesday,2,11,11:00,10
+Paradox Museum Stockholm,Tuesday,2,12,12:00,45
+Paradox Museum Stockholm,Tuesday,2,13,13:00,56
+Paradox Museum Stockholm,Tuesday,2,14,14:00,53
+Paradox Museum Stockholm,Tuesday,2,15,15:00,68
+Paradox Museum Stockholm,Tuesday,2,16,16:00,32
+Paradox Museum Stockholm,Tuesday,2,17,17:00,27
+Paradox Museum Stockholm,Tuesday,2,18,18:00,16
+Paradox Museum Stockholm,Tuesday,2,19,19:00,0
+Paradox Museum Stockholm,Tuesday,2,20,20:00,0
+Paradox Museum Stockholm,Wednesday,3,9,09:00,0
+Paradox Museum Stockholm,Wednesday,3,10,10:00,20
+Paradox Museum Stockholm,Wednesday,3,11,11:00,23
+Paradox Museum Stockholm,Wednesday,3,12,12:00,29
+Paradox Museum Stockholm,Wednesday,3,13,13:00,38
+Paradox Museum Stockholm,Wednesday,3,14,14:00,60
+Paradox Museum Stockholm,Wednesday,3,15,15:00,54
+Paradox Museum Stockholm,Wednesday,3,16,16:00,46
+Paradox Museum Stockholm,Wednesday,3,17,17:00,28
+Paradox Museum Stockholm,Wednesday,3,18,18:00,37
+Paradox Museum Stockholm,Wednesday,3,19,19:00,0
+Paradox Museum Stockholm,Wednesday,3,20,20:00,0
+Paradox Museum Stockholm,Thursday,4,9,09:00,0
+Paradox Museum Stockholm,Thursday,4,10,10:00,5
+Paradox Museum Stockholm,Thursday,4,11,11:00,13
+Paradox Museum Stockholm,Thursday,4,12,12:00,40
+Paradox Museum Stockholm,Thursday,4,13,13:00,58
+Paradox Museum Stockholm,Thursday,4,14,14:00,63
+Paradox Museum Stockholm,Thursday,4,15,15:00,72
+Paradox Museum Stockholm,Thursday,4,16,16:00,40
+Paradox Museum Stockholm,Thursday,4,17,17:00,20
+Paradox Museum Stockholm,Thursday,4,18,18:00,20
+Paradox Museum Stockholm,Thursday,4,19,19:00,0
+Paradox Museum Stockholm,Thursday,4,20,20:00,0
+Paradox Museum Stockholm,Friday,5,9,09:00,0
+Paradox Museum Stockholm,Friday,5,10,10:00,19
+Paradox Museum Stockholm,Friday,5,11,11:00,11
+Paradox Museum Stockholm,Friday,5,12,12:00,31
+Paradox Museum Stockholm,Friday,5,13,13:00,46
+Paradox Museum Stockholm,Friday,5,14,14:00,50
+Paradox Museum Stockholm,Friday,5,15,15:00,68
+Paradox Museum Stockholm,Friday,5,16,16:00,45
+Paradox Museum Stockholm,Friday,5,17,17:00,37
+Paradox Museum Stockholm,Friday,5,18,18:00,30
+Paradox Museum Stockholm,Friday,5,19,19:00,0
+Paradox Museum Stockholm,Friday,5,20,20:00,0
+Paradox Museum Stockholm,Saturday,6,9,09:00,0
+Paradox Museum Stockholm,Saturday,6,10,10:00,29
+Paradox Museum Stockholm,Saturday,6,11,11:00,53
+Paradox Museum Stockholm,Saturday,6,12,12:00,68
+Paradox Museum Stockholm,Saturday,6,13,13:00,76
+Paradox Museum Stockholm,Saturday,6,14,14:00,76
+Paradox Museum Stockholm,Saturday,6,15,15:00,93
+Paradox Museum Stockholm,Saturday,6,16,16:00,65
+Paradox Museum Stockholm,Saturday,6,17,17:00,67
+Paradox Museum Stockholm,Saturday,6,18,18:00,57
+Paradox Museum Stockholm,Saturday,6,19,19:00,0
+Paradox Museum Stockholm,Saturday,6,20,20:00,0
+Paradox Museum Stockholm,Sunday,7,9,09:00,0
+Paradox Museum Stockholm,Sunday,7,10,10:00,23
+Paradox Museum Stockholm,Sunday,7,11,11:00,43
+Paradox Museum Stockholm,Sunday,7,12,12:00,67
+Paradox Museum Stockholm,Sunday,7,13,13:00,54
+Paradox Museum Stockholm,Sunday,7,14,14:00,68
+Paradox Museum Stockholm,Sunday,7,15,15:00,90
+Paradox Museum Stockholm,Sunday,7,16,16:00,67
+Paradox Museum Stockholm,Sunday,7,17,17:00,54
+Paradox Museum Stockholm,Sunday,7,18,18:00,49
+Paradox Museum Stockholm,Sunday,7,19,19:00,0
+Paradox Museum Stockholm,Sunday,7,20,20:00,0
+Armémuseum,Monday,1,9,09:00,0
+Armémuseum,Monday,1,10,10:00,0
+Armémuseum,Monday,1,11,11:00,22
+Armémuseum,Monday,1,12,12:00,24
+Armémuseum,Monday,1,13,13:00,54
+Armémuseum,Monday,1,14,14:00,42
+Armémuseum,Monday,1,15,15:00,59
+Armémuseum,Monday,1,16,16:00,38
+Armémuseum,Monday,1,17,17:00,33
+Armémuseum,Monday,1,18,18:00,14
+Armémuseum,Monday,1,19,19:00,0
+Armémuseum,Monday,1,20,20:00,0
+Armémuseum,Tuesday,2,9,09:00,0
+Armémuseum,Tuesday,2,10,10:00,0
+Armémuseum,Tuesday,2,11,11:00,2
+Armémuseum,Tuesday,2,12,12:00,32
+Armémuseum,Tuesday,2,13,13:00,34
+Armémuseum,Tuesday,2,14,14:00,39
+Armémuseum,Tuesday,2,15,15:00,55
+Armémuseum,Tuesday,2,16,16:00,63
+Armémuseum,Tuesday,2,17,17:00,54
+Armémuseum,Tuesday,2,18,18:00,27
+Armémuseum,Tuesday,2,19,19:00,0
+Armémuseum,Tuesday,2,20,20:00,0
+Armémuseum,Wednesday,3,9,09:00,0
+Armémuseum,Wednesday,3,10,10:00,0
+Armémuseum,Wednesday,3,11,11:00,22
+Armémuseum,Wednesday,3,12,12:00,20
+Armémuseum,Wednesday,3,13,13:00,39
+Armémuseum,Wednesday,3,14,14:00,39
+Armémuseum,Wednesday,3,15,15:00,64
+Armémuseum,Wednesday,3,16,16:00,56
+Armémuseum,Wednesday,3,17,17:00,26
+Armémuseum,Wednesday,3,18,18:00,29
+Armémuseum,Wednesday,3,19,19:00,0
+Armémuseum,Wednesday,3,20,20:00,0
+Armémuseum,Thursday,4,9,09:00,0
+Armémuseum,Thursday,4,10,10:00,0
+Armémuseum,Thursday,4,11,11:00,18
+Armémuseum,Thursday,4,12,12:00,36
+Armémuseum,Thursday,4,13,13:00,26
+Armémuseum,Thursday,4,14,14:00,45
+Armémuseum,Thursday,4,15,15:00,67
+Armémuseum,Thursday,4,16,16:00,61
+Armémuseum,Thursday,4,17,17:00,41
+Armémuseum,Thursday,4,18,18:00,33
+Armémuseum,Thursday,4,19,19:00,0
+Armémuseum,Thursday,4,20,20:00,0
+Armémuseum,Friday,5,9,09:00,0
+Armémuseum,Friday,5,10,10:00,0
+Armémuseum,Friday,5,11,11:00,28
+Armémuseum,Friday,5,12,12:00,15
+Armémuseum,Friday,5,13,13:00,38
+Armémuseum,Friday,5,14,14:00,49
+Armémuseum,Friday,5,15,15:00,53
+Armémuseum,Friday,5,16,16:00,41
+Armémuseum,Friday,5,17,17:00,43
+Armémuseum,Friday,5,18,18:00,40
+Armémuseum,Friday,5,19,19:00,0
+Armémuseum,Friday,5,20,20:00,0
+Armémuseum,Saturday,6,9,09:00,0
+Armémuseum,Saturday,6,10,10:00,0
+Armémuseum,Saturday,6,11,11:00,47
+Armémuseum,Saturday,6,12,12:00,40
+Armémuseum,Saturday,6,13,13:00,47
+Armémuseum,Saturday,6,14,14:00,75
+Armémuseum,Saturday,6,15,15:00,97
+Armémuseum,Saturday,6,16,16:00,78
+Armémuseum,Saturday,6,17,17:00,50
+Armémuseum,Saturday,6,18,18:00,39
+Armémuseum,Saturday,6,19,19:00,0
+Armémuseum,Saturday,6,20,20:00,0
+Armémuseum,Sunday,7,9,09:00,0
+Armémuseum,Sunday,7,10,10:00,0
+Armémuseum,Sunday,7,11,11:00,22
+Armémuseum,Sunday,7,12,12:00,38
+Armémuseum,Sunday,7,13,13:00,69
+Armémuseum,Sunday,7,14,14:00,73
+Armémuseum,Sunday,7,15,15:00,80
+Armémuseum,Sunday,7,16,16:00,85
+Armémuseum,Sunday,7,17,17:00,74
+Armémuseum,Sunday,7,18,18:00,37
+Armémuseum,Sunday,7,19,19:00,0
+Armémuseum,Sunday,7,20,20:00,0
+Hallwylska museet,Monday,1,9,09:00,0
+Hallwylska museet,Monday,1,10,10:00,0
+Hallwylska museet,Monday,1,11,11:00,0
+Hallwylska museet,Monday,1,12,12:00,31
+Hallwylska museet,Monday,1,13,13:00,56
+Hallwylska museet,Monday,1,14,14:00,75
+Hallwylska museet,Monday,1,15,15:00,51
+Hallwylska museet,Monday,1,16,16:00,0
+Hallwylska museet,Monday,1,17,17:00,0
+Hallwylska museet,Monday,1,18,18:00,0
+Hallwylska museet,Monday,1,19,19:00,0
+Hallwylska museet,Monday,1,20,20:00,0
+Hallwylska museet,Tuesday,2,9,09:00,0
+Hallwylska museet,Tuesday,2,10,10:00,0
+Hallwylska museet,Tuesday,2,11,11:00,0
+Hallwylska museet,Tuesday,2,12,12:00,54
+Hallwylska museet,Tuesday,2,13,13:00,53
+Hallwylska museet,Tuesday,2,14,14:00,77
+Hallwylska museet,Tuesday,2,15,15:00,67
+Hallwylska museet,Tuesday,2,16,16:00,0
+Hallwylska museet,Tuesday,2,17,17:00,0
+Hallwylska museet,Tuesday,2,18,18:00,0
+Hallwylska museet,Tuesday,2,19,19:00,0
+Hallwylska museet,Tuesday,2,20,20:00,0
+Hallwylska museet,Wednesday,3,9,09:00,0
+Hallwylska museet,Wednesday,3,10,10:00,0
+Hallwylska museet,Wednesday,3,11,11:00,0
+Hallwylska museet,Wednesday,3,12,12:00,39
+Hallwylska museet,Wednesday,3,13,13:00,56
+Hallwylska museet,Wednesday,3,14,14:00,59
+Hallwylska museet,Wednesday,3,15,15:00,51
+Hallwylska museet,Wednesday,3,16,16:00,0
+Hallwylska museet,Wednesday,3,17,17:00,0
+Hallwylska museet,Wednesday,3,18,18:00,0
+Hallwylska museet,Wednesday,3,19,19:00,0
+Hallwylska museet,Wednesday,3,20,20:00,0
+Hallwylska museet,Thursday,4,9,09:00,0
+Hallwylska museet,Thursday,4,10,10:00,0
+Hallwylska museet,Thursday,4,11,11:00,0
+Hallwylska museet,Thursday,4,12,12:00,49
+Hallwylska museet,Thursday,4,13,13:00,49
+Hallwylska museet,Thursday,4,14,14:00,77
+Hallwylska museet,Thursday,4,15,15:00,44
+Hallwylska museet,Thursday,4,16,16:00,0
+Hallwylska museet,Thursday,4,17,17:00,0
+Hallwylska museet,Thursday,4,18,18:00,0
+Hallwylska museet,Thursday,4,19,19:00,0
+Hallwylska museet,Thursday,4,20,20:00,0
+Hallwylska museet,Friday,5,9,09:00,0
+Hallwylska museet,Friday,5,10,10:00,0
+Hallwylska museet,Friday,5,11,11:00,0
+Hallwylska museet,Friday,5,12,12:00,31
+Hallwylska museet,Friday,5,13,13:00,53
+Hallwylska museet,Friday,5,14,14:00,56
+Hallwylska museet,Friday,5,15,15:00,40
+Hallwylska museet,Friday,5,16,16:00,0
+Hallwylska museet,Friday,5,17,17:00,0
+Hallwylska museet,Friday,5,18,18:00,0
+Hallwylska museet,Friday,5,19,19:00,0
+Hallwylska museet,Friday,5,20,20:00,0
+Hallwylska museet,Saturday,6,9,09:00,0
+Hallwylska museet,Saturday,6,10,10:00,0
+Hallwylska museet,Saturday,6,11,11:00,0
+Hallwylska museet,Saturday,6,12,12:00,46
+Hallwylska museet,Saturday,6,13,13:00,68
+Hallwylska museet,Saturday,6,14,14:00,74
+Hallwylska museet,Saturday,6,15,15:00,63
+Hallwylska museet,Saturday,6,16,16:00,0
+Hallwylska museet,Saturday,6,17,17:00,0
+Hallwylska museet,Saturday,6,18,18:00,0
+Hallwylska museet,Saturday,6,19,19:00,0
+Hallwylska museet,Saturday,6,20,20:00,0
+Hallwylska museet,Sunday,7,9,09:00,0
+Hallwylska museet,Sunday,7,10,10:00,0
+Hallwylska museet,Sunday,7,11,11:00,0
+Hallwylska museet,Sunday,7,12,12:00,58
+Hallwylska museet,Sunday,7,13,13:00,59
+Hallwylska museet,Sunday,7,14,14:00,79
+Hallwylska museet,Sunday,7,15,15:00,66
+Hallwylska museet,Sunday,7,16,16:00,0
+Hallwylska museet,Sunday,7,17,17:00,0
+Hallwylska museet,Sunday,7,18,18:00,0
+Hallwylska museet,Sunday,7,19,19:00,0
+Hallwylska museet,Sunday,7,20,20:00,0
+Medelhavsmuseet,Monday,1,9,09:00,0
+Medelhavsmuseet,Monday,1,10,10:00,0
+Medelhavsmuseet,Monday,1,11,11:00,25
+Medelhavsmuseet,Monday,1,12,12:00,32
+Medelhavsmuseet,Monday,1,13,13:00,43
+Medelhavsmuseet,Monday,1,14,14:00,50
+Medelhavsmuseet,Monday,1,15,15:00,57
+Medelhavsmuseet,Monday,1,16,16:00,57
+Medelhavsmuseet,Monday,1,17,17:00,41
+Medelhavsmuseet,Monday,1,18,18:00,30
+Medelhavsmuseet,Monday,1,19,19:00,17
+Medelhavsmuseet,Monday,1,20,20:00,0
+Medelhavsmuseet,Tuesday,2,9,09:00,0
+Medelhavsmuseet,Tuesday,2,10,10:00,0
+Medelhavsmuseet,Tuesday,2,11,11:00,0
+Medelhavsmuseet,Tuesday,2,12,12:00,21
+Medelhavsmuseet,Tuesday,2,13,13:00,41
+Medelhavsmuseet,Tuesday,2,14,14:00,35
+Medelhavsmuseet,Tuesday,2,15,15:00,72
+Medelhavsmuseet,Tuesday,2,16,16:00,72
+Medelhavsmuseet,Tuesday,2,17,17:00,36
+Medelhavsmuseet,Tuesday,2,18,18:00,45
+Medelhavsmuseet,Tuesday,2,19,19:00,28
+Medelhavsmuseet,Tuesday,2,20,20:00,0
+Medelhavsmuseet,Wednesday,3,9,09:00,0
+Medelhavsmuseet,Wednesday,3,10,10:00,0
+Medelhavsmuseet,Wednesday,3,11,11:00,0
+Medelhavsmuseet,Wednesday,3,12,12:00,34
+Medelhavsmuseet,Wednesday,3,13,13:00,44
+Medelhavsmuseet,Wednesday,3,14,14:00,47
+Medelhavsmuseet,Wednesday,3,15,15:00,72
+Medelhavsmuseet,Wednesday,3,16,16:00,53
+Medelhavsmuseet,Wednesday,3,17,17:00,45
+Medelhavsmuseet,Wednesday,3,18,18:00,31
+Medelhavsmuseet,Wednesday,3,19,19:00,34
+Medelhavsmuseet,Wednesday,3,20,20:00,0
+Medelhavsmuseet,Thursday,4,9,09:00,0
+Medelhavsmuseet,Thursday,4,10,10:00,0
+Medelhavsmuseet,Thursday,4,11,11:00,23
+Medelhavsmuseet,Thursday,4,12,12:00,34
+Medelhavsmuseet,Thursday,4,13,13:00,30
+Medelhavsmuseet,Thursday,4,14,14:00,36
+Medelhavsmuseet,Thursday,4,15,15:00,54
+Medelhavsmuseet,Thursday,4,16,16:00,66
+Medelhavsmuseet,Thursday,4,17,17:00,41
+Medelhavsmuseet,Thursday,4,18,18:00,28
+Medelhavsmuseet,Thursday,4,19,19:00,15
+Medelhavsmuseet,Thursday,4,20,20:00,0
+Medelhavsmuseet,Friday,5,9,09:00,0
+Medelhavsmuseet,Friday,5,10,10:00,0
+Medelhavsmuseet,Friday,5,11,11:00,20
+Medelhavsmuseet,Friday,5,12,12:00,23
+Medelhavsmuseet,Friday,5,13,13:00,22
+Medelhavsmuseet,Friday,5,14,14:00,32
+Medelhavsmuseet,Friday,5,15,15:00,56
+Medelhavsmuseet,Friday,5,16,16:00,71
+Medelhavsmuseet,Friday,5,17,17:00,34
+Medelhavsmuseet,Friday,5,18,18:00,35
+Medelhavsmuseet,Friday,5,19,19:00,19
+Medelhavsmuseet,Friday,5,20,20:00,0
+Medelhavsmuseet,Saturday,6,9,09:00,0
+Medelhavsmuseet,Saturday,6,10,10:00,0
+Medelhavsmuseet,Saturday,6,11,11:00,24
+Medelhavsmuseet,Saturday,6,12,12:00,47
+Medelhavsmuseet,Saturday,6,13,13:00,59
+Medelhavsmuseet,Saturday,6,14,14:00,79
+Medelhavsmuseet,Saturday,6,15,15:00,87
+Medelhavsmuseet,Saturday,6,16,16:00,89
+Medelhavsmuseet,Saturday,6,17,17:00,65
+Medelhavsmuseet,Saturday,6,18,18:00,56
+Medelhavsmuseet,Saturday,6,19,19:00,41
+Medelhavsmuseet,Saturday,6,20,20:00,0
+Medelhavsmuseet,Sunday,7,9,09:00,0
+Medelhavsmuseet,Sunday,7,10,10:00,0
+Medelhavsmuseet,Sunday,7,11,11:00,44
+Medelhavsmuseet,Sunday,7,12,12:00,38
+Medelhavsmuseet,Sunday,7,13,13:00,52
+Medelhavsmuseet,Sunday,7,14,14:00,61
+Medelhavsmuseet,Sunday,7,15,15:00,82
+Medelhavsmuseet,Sunday,7,16,16:00,72
+Medelhavsmuseet,Sunday,7,17,17:00,53
+Medelhavsmuseet,Sunday,7,18,18:00,44
+Medelhavsmuseet,Sunday,7,19,19:00,49
+Medelhavsmuseet,Sunday,7,20,20:00,0
+Moderna Museet,Monday,1,9,09:00,0
+Moderna Museet,Monday,1,10,10:00,0
+Moderna Museet,Monday,1,11,11:00,4
+Moderna Museet,Monday,1,12,12:00,36
+Moderna Museet,Monday,1,13,13:00,53
+Moderna Museet,Monday,1,14,14:00,39
+Moderna Museet,Monday,1,15,15:00,57
+Moderna Museet,Monday,1,16,16:00,48
+Moderna Museet,Monday,1,17,17:00,51
+Moderna Museet,Monday,1,18,18:00,43
+Moderna Museet,Monday,1,19,19:00,27
+Moderna Museet,Monday,1,20,20:00,0
+Moderna Museet,Tuesday,2,9,09:00,0
+Moderna Museet,Tuesday,2,10,10:00,4
+Moderna Museet,Tuesday,2,11,11:00,5
+Moderna Museet,Tuesday,2,12,12:00,20
+Moderna Museet,Tuesday,2,13,13:00,33
+Moderna Museet,Tuesday,2,14,14:00,64
+Moderna Museet,Tuesday,2,15,15:00,66
+Moderna Museet,Tuesday,2,16,16:00,62
+Moderna Museet,Tuesday,2,17,17:00,29
+Moderna Museet,Tuesday,2,18,18:00,32
+Moderna Museet,Tuesday,2,19,19:00,26
+Moderna Museet,Tuesday,2,20,20:00,0
+Moderna Museet,Wednesday,3,9,09:00,0
+Moderna Museet,Wednesday,3,10,10:00,0
+Moderna Museet,Wednesday,3,11,11:00,17
+Moderna Museet,Wednesday,3,12,12:00,17
+Moderna Museet,Wednesday,3,13,13:00,51
+Moderna Museet,Wednesday,3,14,14:00,45
+Moderna Museet,Wednesday,3,15,15:00,71
+Moderna Museet,Wednesday,3,16,16:00,63
+Moderna Museet,Wednesday,3,17,17:00,54
+Moderna Museet,Wednesday,3,18,18:00,24
+Moderna Museet,Wednesday,3,19,19:00,27
+Moderna Museet,Wednesday,3,20,20:00,0
+Moderna Museet,Thursday,4,9,09:00,0
+Moderna Museet,Thursday,4,10,10:00,0
+Moderna Museet,Thursday,4,11,11:00,28
+Moderna Museet,Thursday,4,12,12:00,27
+Moderna Museet,Thursday,4,13,13:00,47
+Moderna Museet,Thursday,4,14,14:00,64
+Moderna Museet,Thursday,4,15,15:00,67
+Moderna Museet,Thursday,4,16,16:00,45
+Moderna Museet,Thursday,4,17,17:00,42
+Moderna Museet,Thursday,4,18,18:00,20
+Moderna Museet,Thursday,4,19,19:00,28
+Moderna Museet,Thursday,4,20,20:00,0
+Moderna Museet,Friday,5,9,09:00,0
+Moderna Museet,Friday,5,10,10:00,18
+Moderna Museet,Friday,5,11,11:00,16
+Moderna Museet,Friday,5,12,12:00,42
+Moderna Museet,Friday,5,13,13:00,43
+Moderna Museet,Friday,5,14,14:00,60
+Moderna Museet,Friday,5,15,15:00,51
+Moderna Museet,Friday,5,16,16:00,41
+Moderna Museet,Friday,5,17,17:00,48
+Moderna Museet,Friday,5,18,18:00,22
+Moderna Museet,Friday,5,19,19:00,15
+Moderna Museet,Friday,5,20,20:00,0
+Moderna Museet,Saturday,6,9,09:00,0
+Moderna Museet,Saturday,6,10,10:00,29
+Moderna Museet,Saturday,6,11,11:00,37
+Moderna Museet,Saturday,6,12,12:00,60
+Moderna Museet,Saturday,6,13,13:00,65
+Moderna Museet,Saturday,6,14,14:00,69
+Moderna Museet,Saturday,6,15,15:00,78
+Moderna Museet,Saturday,6,16,16:00,62
+Moderna Museet,Saturday,6,17,17:00,71
+Moderna Museet,Saturday,6,18,18:00,57
+Moderna Museet,Saturday,6,19,19:00,30
+Moderna Museet,Saturday,6,20,20:00,0
+Moderna Museet,Sunday,7,9,09:00,0
+Moderna Museet,Sunday,7,10,10:00,24
+Moderna Museet,Sunday,7,11,11:00,27
+Moderna Museet,Sunday,7,12,12:00,62
+Moderna Museet,Sunday,7,13,13:00,59
+Moderna Museet,Sunday,7,14,14:00,87
+Moderna Museet,Sunday,7,15,15:00,81
+Moderna Museet,Sunday,7,16,16:00,76
+Moderna Museet,Sunday,7,17,17:00,65
+Moderna Museet,Sunday,7,18,18:00,34
+Moderna Museet,Sunday,7,19,19:00,43
+Moderna Museet,Sunday,7,20,20:00,0
+Stadsmuseet i Stockholm,Monday,1,9,09:00,0
+Stadsmuseet i Stockholm,Monday,1,10,10:00,0
+Stadsmuseet i Stockholm,Monday,1,11,11:00,20
+Stadsmuseet i Stockholm,Monday,1,12,12:00,53
+Stadsmuseet i Stockholm,Monday,1,13,13:00,56
+Stadsmuseet i Stockholm,Monday,1,14,14:00,66
+Stadsmuseet i Stockholm,Monday,1,15,15:00,41
+Stadsmuseet i Stockholm,Monday,1,16,16:00,26
+Stadsmuseet i Stockholm,Monday,1,17,17:00,0
+Stadsmuseet i Stockholm,Monday,1,18,18:00,0
+Stadsmuseet i Stockholm,Monday,1,19,19:00,0
+Stadsmuseet i Stockholm,Monday,1,20,20:00,0
+Stadsmuseet i Stockholm,Tuesday,2,9,09:00,0
+Stadsmuseet i Stockholm,Tuesday,2,10,10:00,0
+Stadsmuseet i Stockholm,Tuesday,2,11,11:00,14
+Stadsmuseet i Stockholm,Tuesday,2,12,12:00,55
+Stadsmuseet i Stockholm,Tuesday,2,13,13:00,56
+Stadsmuseet i Stockholm,Tuesday,2,14,14:00,77
+Stadsmuseet i Stockholm,Tuesday,2,15,15:00,57
+Stadsmuseet i Stockholm,Tuesday,2,16,16:00,44
+Stadsmuseet i Stockholm,Tuesday,2,17,17:00,0
+Stadsmuseet i Stockholm,Tuesday,2,18,18:00,0
+Stadsmuseet i Stockholm,Tuesday,2,19,19:00,0
+Stadsmuseet i Stockholm,Tuesday,2,20,20:00,0
+Stadsmuseet i Stockholm,Wednesday,3,9,09:00,0
+Stadsmuseet i Stockholm,Wednesday,3,10,10:00,0
+Stadsmuseet i Stockholm,Wednesday,3,11,11:00,18
+Stadsmuseet i Stockholm,Wednesday,3,12,12:00,31
+Stadsmuseet i Stockholm,Wednesday,3,13,13:00,52
+Stadsmuseet i Stockholm,Wednesday,3,14,14:00,78
+Stadsmuseet i Stockholm,Wednesday,3,15,15:00,44
+Stadsmuseet i Stockholm,Wednesday,3,16,16:00,50
+Stadsmuseet i Stockholm,Wednesday,3,17,17:00,0
+Stadsmuseet i Stockholm,Wednesday,3,18,18:00,0
+Stadsmuseet i Stockholm,Wednesday,3,19,19:00,0
+Stadsmuseet i Stockholm,Wednesday,3,20,20:00,0
+Stadsmuseet i Stockholm,Thursday,4,9,09:00,0
+Stadsmuseet i Stockholm,Thursday,4,10,10:00,0
+Stadsmuseet i Stockholm,Thursday,4,11,11:00,18
+Stadsmuseet i Stockholm,Thursday,4,12,12:00,53
+Stadsmuseet i Stockholm,Thursday,4,13,13:00,38
+Stadsmuseet i Stockholm,Thursday,4,14,14:00,65
+Stadsmuseet i Stockholm,Thursday,4,15,15:00,41
+Stadsmuseet i Stockholm,Thursday,4,16,16:00,34
+Stadsmuseet i Stockholm,Thursday,4,17,17:00,0
+Stadsmuseet i Stockholm,Thursday,4,18,18:00,0
+Stadsmuseet i Stockholm,Thursday,4,19,19:00,0
+Stadsmuseet i Stockholm,Thursday,4,20,20:00,0
+Stadsmuseet i Stockholm,Friday,5,9,09:00,0
+Stadsmuseet i Stockholm,Friday,5,10,10:00,0
+Stadsmuseet i Stockholm,Friday,5,11,11:00,14
+Stadsmuseet i Stockholm,Friday,5,12,12:00,27
+Stadsmuseet i Stockholm,Friday,5,13,13:00,54
+Stadsmuseet i Stockholm,Friday,5,14,14:00,72
+Stadsmuseet i Stockholm,Friday,5,15,15:00,44
+Stadsmuseet i Stockholm,Friday,5,16,16:00,37
+Stadsmuseet i Stockholm,Friday,5,17,17:00,0
+Stadsmuseet i Stockholm,Friday,5,18,18:00,0
+Stadsmuseet i Stockholm,Friday,5,19,19:00,0
+Stadsmuseet i Stockholm,Friday,5,20,20:00,0
+Stadsmuseet i Stockholm,Saturday,6,9,09:00,0
+Stadsmuseet i Stockholm,Saturday,6,10,10:00,0
+Stadsmuseet i Stockholm,Saturday,6,11,11:00,38
+Stadsmuseet i Stockholm,Saturday,6,12,12:00,66
+Stadsmuseet i Stockholm,Saturday,6,13,13:00,83
+Stadsmuseet i Stockholm,Saturday,6,14,14:00,80
+Stadsmuseet i Stockholm,Saturday,6,15,15:00,68
+Stadsmuseet i Stockholm,Saturday,6,16,16:00,56
+Stadsmuseet i Stockholm,Saturday,6,17,17:00,0
+Stadsmuseet i Stockholm,Saturday,6,18,18:00,0
+Stadsmuseet i Stockholm,Saturday,6,19,19:00,0
+Stadsmuseet i Stockholm,Saturday,6,20,20:00,0
+Stadsmuseet i Stockholm,Sunday,7,9,09:00,0
+Stadsmuseet i Stockholm,Sunday,7,10,10:00,0
+Stadsmuseet i Stockholm,Sunday,7,11,11:00,61
+Stadsmuseet i Stockholm,Sunday,7,12,12:00,61
+Stadsmuseet i Stockholm,Sunday,7,13,13:00,76
+Stadsmuseet i Stockholm,Sunday,7,14,14:00,86
+Stadsmuseet i Stockholm,Sunday,7,15,15:00,82
+Stadsmuseet i Stockholm,Sunday,7,16,16:00,48
+Stadsmuseet i Stockholm,Sunday,7,17,17:00,0
+Stadsmuseet i Stockholm,Sunday,7,18,18:00,0
+Stadsmuseet i Stockholm,Sunday,7,19,19:00,0
+Stadsmuseet i Stockholm,Sunday,7,20,20:00,0
+Avicii Experience,Monday,1,9,09:00,0
+Avicii Experience,Monday,1,10,10:00,20
+Avicii Experience,Monday,1,11,11:00,15
+Avicii Experience,Monday,1,12,12:00,28
+Avicii Experience,Monday,1,13,13:00,43
+Avicii Experience,Monday,1,14,14:00,54
+Avicii Experience,Monday,1,15,15:00,49
+Avicii Experience,Monday,1,16,16:00,39
+Avicii Experience,Monday,1,17,17:00,39
+Avicii Experience,Monday,1,18,18:00,0
+Avicii Experience,Monday,1,19,19:00,0
+Avicii Experience,Monday,1,20,20:00,0
+Avicii Experience,Tuesday,2,9,09:00,0
+Avicii Experience,Tuesday,2,10,10:00,17
+Avicii Experience,Tuesday,2,11,11:00,27
+Avicii Experience,Tuesday,2,12,12:00,35
+Avicii Experience,Tuesday,2,13,13:00,54
+Avicii Experience,Tuesday,2,14,14:00,55
+Avicii Experience,Tuesday,2,15,15:00,53
+Avicii Experience,Tuesday,2,16,16:00,52
+Avicii Experience,Tuesday,2,17,17:00,14
+Avicii Experience,Tuesday,2,18,18:00,0
+Avicii Experience,Tuesday,2,19,19:00,0
+Avicii Experience,Tuesday,2,20,20:00,0
+Avicii Experience,Wednesday,3,9,09:00,0
+Avicii Experience,Wednesday,3,10,10:00,3
+Avicii Experience,Wednesday,3,11,11:00,40
+Avicii Experience,Wednesday,3,12,12:00,53
+Avicii Experience,Wednesday,3,13,13:00,67
+Avicii Experience,Wednesday,3,14,14:00,78
+Avicii Experience,Wednesday,3,15,15:00,59
+Avicii Experience,Wednesday,3,16,16:00,42
+Avicii Experience,Wednesday,3,17,17:00,43
+Avicii Experience,Wednesday,3,18,18:00,0
+Avicii Experience,Wednesday,3,19,19:00,0
+Avicii Experience,Wednesday,3,20,20:00,0
+Avicii Experience,Thursday,4,9,09:00,0
+Avicii Experience,Thursday,4,10,10:00,15
+Avicii Experience,Thursday,4,11,11:00,19
+Avicii Experience,Thursday,4,12,12:00,32
+Avicii Experience,Thursday,4,13,13:00,54
+Avicii Experience,Thursday,4,14,14:00,66
+Avicii Experience,Thursday,4,15,15:00,44
+Avicii Experience,Thursday,4,16,16:00,29
+Avicii Experience,Thursday,4,17,17:00,36
+Avicii Experience,Thursday,4,18,18:00,0
+Avicii Experience,Thursday,4,19,19:00,0
+Avicii Experience,Thursday,4,20,20:00,0
+Avicii Experience,Friday,5,9,09:00,0
+Avicii Experience,Friday,5,10,10:00,16
+Avicii Experience,Friday,5,11,11:00,17
+Avicii Experience,Friday,5,12,12:00,55
+Avicii Experience,Friday,5,13,13:00,43
+Avicii Experience,Friday,5,14,14:00,65
+Avicii Experience,Friday,5,15,15:00,67
+Avicii Experience,Friday,5,16,16:00,41
+Avicii Experience,Friday,5,17,17:00,42
+Avicii Experience,Friday,5,18,18:00,0
+Avicii Experience,Friday,5,19,19:00,0
+Avicii Experience,Friday,5,20,20:00,0
+Avicii Experience,Saturday,6,9,09:00,0
+Avicii Experience,Saturday,6,10,10:00,41
+Avicii Experience,Saturday,6,11,11:00,58
+Avicii Experience,Saturday,6,12,12:00,73
+Avicii Experience,Saturday,6,13,13:00,69
+Avicii Experience,Saturday,6,14,14:00,85
+Avicii Experience,Saturday,6,15,15:00,84
+Avicii Experience,Saturday,6,16,16:00,59
+Avicii Experience,Saturday,6,17,17:00,38
+Avicii Experience,Saturday,6,18,18:00,0
+Avicii Experience,Saturday,6,19,19:00,0
+Avicii Experience,Saturday,6,20,20:00,0
+Avicii Experience,Sunday,7,9,09:00,0
+Avicii Experience,Sunday,7,10,10:00,36
+Avicii Experience,Sunday,7,11,11:00,40
+Avicii Experience,Sunday,7,12,12:00,64
+Avicii Experience,Sunday,7,13,13:00,59
+Avicii Experience,Sunday,7,14,14:00,85
+Avicii Experience,Sunday,7,15,15:00,86
+Avicii Experience,Sunday,7,16,16:00,65
+Avicii Experience,Sunday,7,17,17:00,57
+Avicii Experience,Sunday,7,18,18:00,0
+Avicii Experience,Sunday,7,19,19:00,0
+Avicii Experience,Sunday,7,20,20:00,0
+Stockholm Toy Museum,Monday,1,9,09:00,0
+Stockholm Toy Museum,Monday,1,10,10:00,22
+Stockholm Toy Museum,Monday,1,11,11:00,23
+Stockholm Toy Museum,Monday,1,12,12:00,53
+Stockholm Toy Museum,Monday,1,13,13:00,57
+Stockholm Toy Museum,Monday,1,14,14:00,56
+Stockholm Toy Museum,Monday,1,15,15:00,43
+Stockholm Toy Museum,Monday,1,16,16:00,31
+Stockholm Toy Museum,Monday,1,17,17:00,0
+Stockholm Toy Museum,Monday,1,18,18:00,0
+Stockholm Toy Museum,Monday,1,19,19:00,0
+Stockholm Toy Museum,Monday,1,20,20:00,0
+Stockholm Toy Museum,Tuesday,2,9,09:00,0
+Stockholm Toy Museum,Tuesday,2,10,10:00,36
+Stockholm Toy Museum,Tuesday,2,11,11:00,44
+Stockholm Toy Museum,Tuesday,2,12,12:00,50
+Stockholm Toy Museum,Tuesday,2,13,13:00,72
+Stockholm Toy Museum,Tuesday,2,14,14:00,49
+Stockholm Toy Museum,Tuesday,2,15,15:00,41
+Stockholm Toy Museum,Tuesday,2,16,16:00,32
+Stockholm Toy Museum,Tuesday,2,17,17:00,0
+Stockholm Toy Museum,Tuesday,2,18,18:00,0
+Stockholm Toy Museum,Tuesday,2,19,19:00,0
+Stockholm Toy Museum,Tuesday,2,20,20:00,0
+Stockholm Toy Museum,Wednesday,3,9,09:00,0
+Stockholm Toy Museum,Wednesday,3,10,10:00,23
+Stockholm Toy Museum,Wednesday,3,11,11:00,37
+Stockholm Toy Museum,Wednesday,3,12,12:00,54
+Stockholm Toy Museum,Wednesday,3,13,13:00,71
+Stockholm Toy Museum,Wednesday,3,14,14:00,73
+Stockholm Toy Museum,Wednesday,3,15,15:00,56
+Stockholm Toy Museum,Wednesday,3,16,16:00,26
+Stockholm Toy Museum,Wednesday,3,17,17:00,0
+Stockholm Toy Museum,Wednesday,3,18,18:00,0
+Stockholm Toy Museum,Wednesday,3,19,19:00,0
+Stockholm Toy Museum,Wednesday,3,20,20:00,0
+Stockholm Toy Museum,Thursday,4,9,09:00,0
+Stockholm Toy Museum,Thursday,4,10,10:00,23
+Stockholm Toy Museum,Thursday,4,11,11:00,34
+Stockholm Toy Museum,Thursday,4,12,12:00,61
+Stockholm Toy Museum,Thursday,4,13,13:00,68
+Stockholm Toy Museum,Thursday,4,14,14:00,67
+Stockholm Toy Museum,Thursday,4,15,15:00,50
+Stockholm Toy Museum,Thursday,4,16,16:00,24
+Stockholm Toy Museum,Thursday,4,17,17:00,0
+Stockholm Toy Museum,Thursday,4,18,18:00,0
+Stockholm Toy Museum,Thursday,4,19,19:00,0
+Stockholm Toy Museum,Thursday,4,20,20:00,0
+Stockholm Toy Museum,Friday,5,9,09:00,0
+Stockholm Toy Museum,Friday,5,10,10:00,9
+Stockholm Toy Museum,Friday,5,11,11:00,35
+Stockholm Toy Museum,Friday,5,12,12:00,58
+Stockholm Toy Museum,Friday,5,13,13:00,71
+Stockholm Toy Museum,Friday,5,14,14:00,61
+Stockholm Toy Museum,Friday,5,15,15:00,43
+Stockholm Toy Museum,Friday,5,16,16:00,39
+Stockholm Toy Museum,Friday,5,17,17:00,0
+Stockholm Toy Museum,Friday,5,18,18:00,0
+Stockholm Toy Museum,Friday,5,19,19:00,0
+Stockholm Toy Museum,Friday,5,20,20:00,0
+Stockholm Toy Museum,Saturday,6,9,09:00,0
+Stockholm Toy Museum,Saturday,6,10,10:00,43
+Stockholm Toy Museum,Saturday,6,11,11:00,63
+Stockholm Toy Museum,Saturday,6,12,12:00,80
+Stockholm Toy Museum,Saturday,6,13,13:00,71
+Stockholm Toy Museum,Saturday,6,14,14:00,92
+Stockholm Toy Museum,Saturday,6,15,15:00,52
+Stockholm Toy Museum,Saturday,6,16,16:00,62
+Stockholm Toy Museum,Saturday,6,17,17:00,0
+Stockholm Toy Museum,Saturday,6,18,18:00,0
+Stockholm Toy Museum,Saturday,6,19,19:00,0
+Stockholm Toy Museum,Saturday,6,20,20:00,0
+Stockholm Toy Museum,Sunday,7,9,09:00,0
+Stockholm Toy Museum,Sunday,7,10,10:00,37
+Stockholm Toy Museum,Sunday,7,11,11:00,61
+Stockholm Toy Museum,Sunday,7,12,12:00,77
+Stockholm Toy Museum,Sunday,7,13,13:00,69
+Stockholm Toy Museum,Sunday,7,14,14:00,81
+Stockholm Toy Museum,Sunday,7,15,15:00,79
+Stockholm Toy Museum,Sunday,7,16,16:00,44
+Stockholm Toy Museum,Sunday,7,17,17:00,0
+Stockholm Toy Museum,Sunday,7,18,18:00,0
+Stockholm Toy Museum,Sunday,7,19,19:00,0
+Stockholm Toy Museum,Sunday,7,20,20:00,0
+Spårvägsmuseet,Monday,1,9,09:00,0
+Spårvägsmuseet,Monday,1,10,10:00,0
+Spårvägsmuseet,Monday,1,11,11:00,19
+Spårvägsmuseet,Monday,1,12,12:00,35
+Spårvägsmuseet,Monday,1,13,13:00,63
+Spårvägsmuseet,Monday,1,14,14:00,57
+Spårvägsmuseet,Monday,1,15,15:00,46
+Spårvägsmuseet,Monday,1,16,16:00,36
+Spårvägsmuseet,Monday,1,17,17:00,0
+Spårvägsmuseet,Monday,1,18,18:00,0
+Spårvägsmuseet,Monday,1,19,19:00,0
+Spårvägsmuseet,Monday,1,20,20:00,0
+Spårvägsmuseet,Tuesday,2,9,09:00,0
+Spårvägsmuseet,Tuesday,2,10,10:00,0
+Spårvägsmuseet,Tuesday,2,11,11:00,39
+Spårvägsmuseet,Tuesday,2,12,12:00,44
+Spårvägsmuseet,Tuesday,2,13,13:00,64
+Spårvägsmuseet,Tuesday,2,14,14:00,64
+Spårvägsmuseet,Tuesday,2,15,15:00,57
+Spårvägsmuseet,Tuesday,2,16,16:00,38
+Spårvägsmuseet,Tuesday,2,17,17:00,0
+Spårvägsmuseet,Tuesday,2,18,18:00,0
+Spårvägsmuseet,Tuesday,2,19,19:00,0
+Spårvägsmuseet,Tuesday,2,20,20:00,0
+Spårvägsmuseet,Wednesday,3,9,09:00,0
+Spårvägsmuseet,Wednesday,3,10,10:00,0
+Spårvägsmuseet,Wednesday,3,11,11:00,21
+Spårvägsmuseet,Wednesday,3,12,12:00,29
+Spårvägsmuseet,Wednesday,3,13,13:00,47
+Spårvägsmuseet,Wednesday,3,14,14:00,54
+Spårvägsmuseet,Wednesday,3,15,15:00,65
+Spårvägsmuseet,Wednesday,3,16,16:00,26
+Spårvägsmuseet,Wednesday,3,17,17:00,0
+Spårvägsmuseet,Wednesday,3,18,18:00,0
+Spårvägsmuseet,Wednesday,3,19,19:00,0
+Spårvägsmuseet,Wednesday,3,20,20:00,0
+Spårvägsmuseet,Thursday,4,9,09:00,0
+Spårvägsmuseet,Thursday,4,10,10:00,0
+Spårvägsmuseet,Thursday,4,11,11:00,33
+Spårvägsmuseet,Thursday,4,12,12:00,51
+Spårvägsmuseet,Thursday,4,13,13:00,61
+Spårvägsmuseet,Thursday,4,14,14:00,72
+Spårvägsmuseet,Thursday,4,15,15:00,46
+Spårvägsmuseet,Thursday,4,16,16:00,38
+Spårvägsmuseet,Thursday,4,17,17:00,0
+Spårvägsmuseet,Thursday,4,18,18:00,0
+Spårvägsmuseet,Thursday,4,19,19:00,0
+Spårvägsmuseet,Thursday,4,20,20:00,0
+Spårvägsmuseet,Friday,5,9,09:00,0
+Spårvägsmuseet,Friday,5,10,10:00,0
+Spårvägsmuseet,Friday,5,11,11:00,20
+Spårvägsmuseet,Friday,5,12,12:00,49
+Spårvägsmuseet,Friday,5,13,13:00,55
+Spårvägsmuseet,Friday,5,14,14:00,76
+Spårvägsmuseet,Friday,5,15,15:00,48
+Spårvägsmuseet,Friday,5,16,16:00,45
+Spårvägsmuseet,Friday,5,17,17:00,0
+Spårvägsmuseet,Friday,5,18,18:00,0
+Spårvägsmuseet,Friday,5,19,19:00,0
+Spårvägsmuseet,Friday,5,20,20:00,0
+Spårvägsmuseet,Saturday,6,9,09:00,0
+Spårvägsmuseet,Saturday,6,10,10:00,0
+Spårvägsmuseet,Saturday,6,11,11:00,42
+Spårvägsmuseet,Saturday,6,12,12:00,52
+Spårvägsmuseet,Saturday,6,13,13:00,83
+Spårvägsmuseet,Saturday,6,14,14:00,90
+Spårvägsmuseet,Saturday,6,15,15:00,64
+Spårvägsmuseet,Saturday,6,16,16:00,73
+Spårvägsmuseet,Saturday,6,17,17:00,0
+Spårvägsmuseet,Saturday,6,18,18:00,0
+Spårvägsmuseet,Saturday,6,19,19:00,0
+Spårvägsmuseet,Saturday,6,20,20:00,0
+Spårvägsmuseet,Sunday,7,9,09:00,0
+Spårvägsmuseet,Sunday,7,10,10:00,0
+Spårvägsmuseet,Sunday,7,11,11:00,47
+Spårvägsmuseet,Sunday,7,12,12:00,69
+Spårvägsmuseet,Sunday,7,13,13:00,76
+Spårvägsmuseet,Sunday,7,14,14:00,76
+Spårvägsmuseet,Sunday,7,15,15:00,78
+Spårvägsmuseet,Sunday,7,16,16:00,59
+Spårvägsmuseet,Sunday,7,17,17:00,0
+Spårvägsmuseet,Sunday,7,18,18:00,0
+Spårvägsmuseet,Sunday,7,19,19:00,0
+Spårvägsmuseet,Sunday,7,20,20:00,0
