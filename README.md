@@ -20,7 +20,7 @@ Want to dive into the data yourself? You are more than welcome to explore the li
 A small heads-up: We’ve really pushed the boundaries of what’s possible in Power BI for this project.\
 Since this was our first time working with the platform, you might encounter a few minor bugs or performance quirks. We like to think of them as "charms of development"!
 
-[Click here to explore the STHMLs Puls app](https://app.powerbi.com/groups/me/apps/28b6d6de-329e-4fe3-922f-bec9975c8e3c/reports/b9cf9760-b95c-4965-a4ac-83422d1da1e6/061d7786b21da520d7b6?ctid=735058e3-0e46-46ce-a1d5-c0b0a68980db&redirectedFromSignup=1&experience=power-bi&clientSideAuth=0&bookmarkGuid=85db472f848d336c03dc)
+[Click here to explore the STHMLs Puls app](https://app.powerbi.com/Redirect?action=OpenApp&appId=28b6d6de-329e-4fe3-922f-bec9975c8e3c&ctid=735058e3-0e46-46ce-a1d5-c0b0a68980db&redirectedFromSignup=1&experience=power-bi)
 
 ## Data Sources
 
