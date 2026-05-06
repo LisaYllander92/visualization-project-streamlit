@@ -24,13 +24,12 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
     ax.bar(x, df_merged["num_events"], color=bar_colors,
            width=0.6, edgecolor="none", zorder=2)
 
-    emoji_font = FontProperties(family="Segoe UI Emoji")
     y_max = df_merged["num_events"].max()
 
     for i, row in df_merged.iterrows():
         ax.text(i, row["num_events"] + y_max * 0.06,
                 row["icon"], ha="left", va="bottom",
-                fontsize=14, fontproperties=emoji_font)
+                fontsize=14)
         ax.text(i, row["num_events"] + y_max * 0.16,
                 f"{row['temp_max']:.1f}°",
                 ha="right", va="bottom", fontsize=8,
