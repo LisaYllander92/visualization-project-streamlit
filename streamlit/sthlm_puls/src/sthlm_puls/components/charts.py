@@ -60,6 +60,23 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
     ax.set_xlabel("Day", fontsize=7, color=COLORS["blue_dark"])
     ax.xaxis.set_label_coords(0.5, -0.1)
 
+    # Annotation — peka ut dagen med flest events
+    max_events_idx = df_merged["num_events"].idxmax()
+
+    ax.annotate(
+        text=f"Most events\nthis day!",
+        xy=(max_events_idx, df_merged.loc[max_events_idx, "num_events"]),
+        xytext=(max_events_idx + 1.5, df_merged.loc[max_events_idx, "num_events"] + y_max * 0.3),
+        fontsize=8,
+        color=COLORS["blue_dark"],
+        arrowprops=dict(
+            arrowstyle="->",
+            connectionstyle="arc3,rad=-0.2",
+            linewidth=1.2,
+            color=COLORS["blue_dark"]
+        )
+    )
+
     fig.tight_layout()
     return fig
 

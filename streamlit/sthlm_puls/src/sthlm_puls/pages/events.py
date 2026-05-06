@@ -90,9 +90,5 @@ def events_layout():
         st.metric(label=f"Total events in {month_name}", value=total_events_this_month_kpi(events))
 
 
-
-
-
-
 if __name__ == "__main__":
     events_layout()
