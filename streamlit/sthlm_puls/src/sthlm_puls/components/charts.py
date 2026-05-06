@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from matplotlib.font_manager import FontProperties
 import numpy as np
 import pandas as pd
 from sthlm_puls.utils.constants import COLORS
@@ -24,7 +23,6 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
     ax.bar(x, df_merged["num_events"], color=bar_colors,
            width=0.6, edgecolor="none", zorder=2)
 
-    emoji_font = FontProperties(family="Noto Color Emoji")
     y_max = df_merged["num_events"].max()
 
     for i, row in df_merged.iterrows():

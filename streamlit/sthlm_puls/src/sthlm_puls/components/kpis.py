@@ -1,7 +1,6 @@
-from sthlm_puls.utils.helpers import get_events_df
 import duckdb
-import streamlit as st
 import pandas as pd
+from sthlm_puls.utils.helpers import get_events_df
 from datetime import datetime
 
 df = get_events_df()

@@ -1,5 +1,4 @@
 import streamlit as st
-
 from sthlm_puls.utils.constants import IMAGE_PATH, MARKDOWN_PATH
 from sthlm_puls.utils.helpers import read_textfile
 from sthlm_puls.components.charts import plot_events_weekday

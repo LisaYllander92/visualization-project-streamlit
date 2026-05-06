@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-
 from sthlm_puls.utils.constants import DATA_PATH, MARKDOWN_PATH
 from sthlm_puls.components.weather import fetch_weather_forecast
 from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday
