@@ -6,12 +6,13 @@ from sthlm_puls.components.charts import plot_events_weekday
 from sthlm_puls.utils.helpers import read_textfile, get_events_df
 
 def home():
-    st.image(IMAGE_PATH / "sthlmpuls.png")
+    st.image(IMAGE_PATH / "sthlmpuls.png", width=1485)
     st.markdown(read_textfile(MARKDOWN_PATH / "intro_events.md"))
-    # df = get_events_df()
-    # fig = plot_events_weekday(df)
-    # st.pyplot(fig)
+    home_footer()
 
+
+def home_footer():
+    st.image(IMAGE_PATH / "sthlmpuls_footer.png", width=1485)  # Justerad bredd
 
 
 if __name__ == "__main__":

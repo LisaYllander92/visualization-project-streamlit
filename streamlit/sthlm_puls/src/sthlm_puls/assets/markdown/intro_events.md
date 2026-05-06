@@ -30,7 +30,3 @@ so you always know what to expect before heading out.
 | VisitStockholm | Cultural events & exhibitions |
 | Fasching | Jazz & club events |
 | Berns | Club & live events |
-
----
-
-*Data sourced from Ticketmaster, VisitStockholm, Fasching and Berns.*
