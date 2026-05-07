@@ -1,4 +1,4 @@
-[← Back to Main Project Documentation](../../../../README.md)
+[← Back to Main Project Documentation](../../README.md)
 
 # STHLMs PULS 🎭
 

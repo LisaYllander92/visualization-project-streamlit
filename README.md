@@ -127,7 +127,7 @@ CSV files are excluded from Git via `.gitignore`.
 | Mossad | Övrigt |
 
 > Streamlit dashboard developed by Lisa and Rickard.
-- [**Explore the Streamlit Documentation & Source Code →**](./streamlit/sthlm_puls/src/sthlm_puls/README.md)
+- [**Explore the Streamlit Documentation & Source Code →**](./streamlit/sthlm_puls/README.md)
 
 ## Status
 
