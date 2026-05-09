@@ -70,13 +70,23 @@ def assign_genre(row):
     if any(w in name for w in ["history", "historical", "medieval", "secret", "ghost", "spy", "stockholm", "old town", "gamla stan"]):
         return "Culture & Arts"
 
+    if any(w in name for w in ["hip-hop", "rap", "r&b", "trap", "asap", "drake", "kendrick"]):
+        return "Hip-Hop/Rap"
+
+    if any(w in name for w in ["rock", "metal", "punk", "hardcore", "grunge", "heavy"]):
+        return "Rock"
+
+    if any(w in name for w in ["electronic", "techno", "house", "rave", "dj", "edm"]):
+        return "Dance/Electronic"
+
+    if any(w in name for w in ["classical", "opera", "orchestra", "symphony", "bach", "beethoven", "mozart"]):
+        return "Classical"
 
     if segment == "Music":
-        return "Jazz & Blues"
+        return "Other"
     if segment == "Arts & Theatre":
         return "Culture & Arts"
 
-    return "Miscellaneous"
 
 def clean():
     df = pd.read_csv(INPUT_PATH)
@@ -171,10 +181,12 @@ def clean():
         "Networking & Community": "Miscellaneous",
         "Science & Tech": "Miscellaneous",
         "Careers & Leadership": "Miscellaneous",
-        "Sports & Wellbeing": "Sports",
+        "Sports & Wellbeing": "Miscellaneous",
+        "Sports": "Miscellaneous",
     }
 
     result["segment"] = result["segment"].map(segment_mapping)
+    result["segment"] = result["segment"].replace("Sports", "Miscellaneous")
 
 
     result.loc[result["name"] == "Empire of the Sun", "url"] = "https://www.livenation.se/event/empire-of-the-sun-stockholm-tickets-edp1648175"

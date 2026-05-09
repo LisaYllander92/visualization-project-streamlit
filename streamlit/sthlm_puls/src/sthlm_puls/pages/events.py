@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from sthlm_puls.utils.constants import DATA_PATH, MARKDOWN_PATH
+from sthlm_puls.utils.constants import DATA_PATH, MARKDOWN_PATH, MAPBOX_TOKEN
 from sthlm_puls.components.weather import fetch_weather_forecast
-from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday
+from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday, plot_segment_over_time, events_map
 from sthlm_puls.components.filters import venue_filter, genre_filter, date_filter
 from sthlm_puls.components.kpis import total_events_kpi, unique_venues_kpi, total_events_this_month_kpi, total_events_today_kpi
 from sthlm_puls.utils.helpers import read_textfile, get_events_df
+from sthlm_puls.components.map import events_map
 
 
 
@@ -18,8 +19,14 @@ def events_layout():
 
     # Load data
     weather = fetch_weather_forecast(days=7)
-    events = pd.read_csv(DATA_PATH / "events_combined.csv")
-    events["date"] = pd.to_datetime(events["date"])
+
+    events = get_events_df()
+    events["month"] = events["date"].dt.to_period("M").dt.to_timestamp()
+    genre_month = (
+        events.groupby(["month", "genre"])
+        .size()
+        .reset_index(name="num_events")
+    )
 
     # Count events per day
     events_per_day = (
@@ -97,11 +104,16 @@ def events_layout():
         st.metric(label=f"Unique venues ({venue})", value=count)
     with col3:
         month_name = datetime.today().strftime("%B")
-        st.metric(label=f"Total events this month ({month_name})", value=total_events_this_month_kpi(events))
+        st.metric(label=f"Total events this month ({month_name})", value=total_events_this_month_kpi(filtered))
     with col4:
         day_today = datetime.today().strftime("%A")
-        events_count = total_events_today_kpi(events)
+        events_count = total_events_today_kpi(filtered)
         st.metric(label=f"Total events today ({day_today})", value=events_count)
+
+    st.subheader("Where to go?")
+    st.markdown("Events are concentrated in central Stockholm — zoom in to explore venues by neighbourhood.")
+
+    st.pydeck_chart(events_map(filtered, MAPBOX_TOKEN))
 
     st.subheader("When to go out?")
     st.markdown("Stockholm's cultural life peaks on weekends — Saturday alone accounts for nearly a third of all weekly events."
@@ -111,8 +123,14 @@ def events_layout():
     fig = plot_events_weekday(df)
     st.pyplot(fig)
 
+    st.subheader("How is the scene distributed over the year?")
+    st.markdown("Arts & Theatre dominates Stockholm's cultural scene in spring, while Music maintains a steady presence through the year. "
+                "July is the quietest month across all segments.")
 
-
+    st.cache_data.clear()
+    st.pyplot(plot_segment_over_time(events))
+    st.markdown("Note: The drop in June may reflect incomplete booking data rather than actual activity — "
+                "events are added continuously as venues confirm their schedules.")
 
 
 if __name__ == "__main__":

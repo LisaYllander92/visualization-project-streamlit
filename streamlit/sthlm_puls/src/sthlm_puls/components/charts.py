@@ -1,8 +1,10 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import matplotlib.dates as mdates
 import numpy as np
 import pandas as pd
-from sthlm_puls.utils.constants import COLORS
+import pydeck as pdk
+from sthlm_puls.utils.constants import COLORS, MAPBOX_TOKEN
 
 
 def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
@@ -80,9 +82,7 @@ def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
 
 
 def plot_events_weekday(df: pd.DataFrame):
-    # df = pd.read_csv('../streamlit/sthlm_puls/src/sthlm_puls/assets/data/events_combined.csv')
 
-# Måndag överst i listan = måndag nederst i barh, söndag överst
     day_order  = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     day_labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
@@ -117,3 +117,77 @@ def plot_events_weekday(df: pd.DataFrame):
 
     fig.tight_layout()
     return fig
+
+
+def plot_segment_over_time(df: pd.DataFrame) -> plt.Figure:
+    df = df.copy()
+    df = df[df["date"].dt.year == 2026]
+    df["month"] = df["date"].dt.to_period("M").dt.to_timestamp()
+
+    segment_month = (
+        df.groupby(["month", "segment"])
+        .size()
+        .reset_index(name="num_events")
+        .sort_values("month")
+    )
+
+    segment_colors = {
+        "Arts & Theatre": COLORS["purple_1"],
+        "Music": COLORS["pink"],
+        "Miscellaneous": COLORS["blue_dark"],
+        "Nightlife": COLORS["gray_3"],
+    }
+
+    fig, ax = plt.subplots(figsize=(8, 3))
+    fig.patch.set_facecolor(COLORS["blue_light"])
+    ax.set_facecolor(COLORS["blue_light"])
+
+    for segment, group in segment_month.groupby("segment"):
+        color = segment_colors.get(segment, COLORS["gray_1"])
+        ax.plot(group["month"], group["num_events"],
+                label=segment, color=color, linewidth=2.5,
+                marker="o", markersize=7, markerfacecolor="white",
+                markeredgecolor=color, markeredgewidth=2)
+
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+
+    ax.spines[["top", "right", "left"]].set_visible(False)
+    ax.spines["bottom"].set_color(COLORS["gray_1"])
+    ax.tick_params(colors=COLORS["blue_dark"], labelsize=9, length=0, pad=5)
+    ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, linestyle="--")
+    ax.set_axisbelow(True)
+    ax.set_xlabel("Month", color=COLORS["blue_dark"], fontsize=7)
+    ax.set_ylabel("Number of events", color=COLORS["blue_dark"], fontsize=7)
+    ax.legend(fontsize=8, frameon=False, labelcolor=COLORS["blue_dark"])
+    ax.set_title(
+        "Stockholm's cultural calendar — events by segment over the year",
+        loc="left", fontsize=12, fontweight="bold",
+        color=COLORS["gray_3"], pad=20
+    )
+
+    fig.tight_layout()
+    return fig
+
+
+
+def events_map(df: pd.DataFrame):
+    layer = pdk.Layer(
+        "ScatterplotLayer",
+        data=df[["venue_lat", "venue_lon", "venue_name"]].drop_duplicates(),
+        get_position=["venue_lon", "venue_lat"],
+        get_radius=100,
+        get_fill_color=[255, 102, 102],
+        pickable=True,
+    )
+
+    view = pdk.ViewState(
+        latitude=59.33,
+        longitude=18.07,
+        zoom=11
+    )
+
+    return pdk.Deck(
+        layers=[layer],
+        initial_view_state=view,
+        tooltip={"text": "{venue_name}"}
+    )

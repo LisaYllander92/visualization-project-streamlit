@@ -27,6 +27,8 @@ This streamlit dashboard is built as an extension of a group project that we did
 - 📅 **This Week** — daily event counts combined with a 7-day weather forecast, highlighting the warmest day of the week
 - 📊 **Events** — browse and filter cultural events by genre, venue and date
 - 🗃️ **Raw Data** — explore the underlying dataset
+- 🗺️ **Venue Map** — explore where events are happening across Stockholm, filterable by genre, venue and date
+- 📈 **Cultural Calendar** — see how events are distributed across segments throughout the year
 
 ## Project Structure
 ```
@@ -36,10 +38,12 @@ streamlit/sthlm_puls/src/sthlm_puls/
 │   ├── image/          # Header & Footer images
 │   └── markdown/       # Text content and documentation files
 ├── components/         # Reusable UI elements and logic
+│   ├── map.py          # Interactive venue map (pydeck/Mapbox)
 │   ├── charts.py       # Visualization functions (Matplotlib)
 │   ├── filters.py      # Data filtering logic
 │   ├── kpis.py         # Live Key Performance Indicator calculations
 │   └── weather.py      # Weather-related components/API logic
+
 ├── pages/              # Multi-page app navigation
 │   ├── events.py       # Detailed event views
 │   ├── home.py         # Main dashboard landing page
