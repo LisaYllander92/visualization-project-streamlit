@@ -98,17 +98,18 @@ def events_layout():
 
     with col1:
         count = total_events_kpi(filtered, genre)
-        st.metric(label=f"Total events ({genre})", value=count)
+        st.metric(label="Total events", value=count)
     with col2:
         count = unique_venues_kpi(filtered, venue)
-        st.metric(label=f"Unique venues ({venue})", value=count)
+        st.metric(label="Unique venues", value=count)
     with col3:
         month_name = datetime.today().strftime("%B")
         st.metric(label=f"Total events this month ({month_name})", value=total_events_this_month_kpi(filtered))
     with col4:
         day_today = datetime.today().strftime("%A")
-        events_count = total_events_today_kpi(filtered)
-        st.metric(label=f"Total events today ({day_today})", value=events_count)
+        st.metric(label=f"Total events today ({day_today})", value=total_events_today_kpi(filtered))
+
+    st.caption("Numbers reflect your current filter selection.")
 
     st.subheader("Where to go?")
     st.markdown("Events are concentrated in central Stockholm — zoom in to explore venues by neighbourhood.")
