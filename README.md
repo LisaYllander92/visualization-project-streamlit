@@ -59,7 +59,7 @@ visualization-project-streamlit/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/rickardgarnau-byte/visualization-project-streamlit.git
+git clone https://github.com/rickard-garnau/visualization-project-streamlit.git
 cd visualization-project-streamlit
 ```
 
