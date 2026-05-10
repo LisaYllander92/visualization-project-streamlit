@@ -144,8 +144,7 @@ def events_layout():
 
     st.cache_data.clear()
     st.pyplot(plot_segment_over_time(events))
-    st.markdown("Note: The drop in June may reflect incomplete booking data rather than actual activity — "
-                "events are added continuously as venues confirm their schedules.")
+    st.markdown("Note: Event activity naturally dips during summer, picking up again in the fall as venues announce their autumn programmes.")
 
 
 if __name__ == "__main__":

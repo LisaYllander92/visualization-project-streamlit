@@ -1,6 +1,5 @@
-import os
 from pathlib import Path
-from dotenv import load_dotenv
+
 
 
 BASE_PATH = Path(__file__).parents[1]
@@ -27,7 +26,3 @@ COLORS = {
     "BAKGRUND":   '#FFFFFF',
     "HIGHLIGHT": '#E8192C',
 }
-
-
-load_dotenv()
-MAPBOX_TOKEN = os.getenv("MAPBOX_TOKEN")
