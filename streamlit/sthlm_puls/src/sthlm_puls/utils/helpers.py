@@ -9,6 +9,13 @@ def read_textfile(path) -> str:
 
 @st.cache_data
 def get_events_df():
+    df = pd.read_csv(DATA_PATH / "events_combined.csv")
+    df["date"] = pd.to_datetime(df["date"])
+    df = df[df["date"] >= pd.Timestamp.today().normalize()]
+    return df
+
+@st.cache_data
+def get_raw_events_df():
     return pd.read_csv(DATA_PATH / "events_combined.csv")
 
 

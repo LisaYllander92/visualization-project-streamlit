@@ -22,3 +22,6 @@ pg.run()
 # Footer
 st.image(IMAGE_PATH / "sthlmpuls_footer.png", use_container_width=True)
 
+
+
+

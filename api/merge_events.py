@@ -64,6 +64,7 @@ def merge_events():
     }
 
     dfs = []
+
     for source, path in files.items():
         if not os.path.exists(path):
             print(f"Varning: {path} finns inte, hoppar över")
@@ -97,6 +98,7 @@ def merge_events():
 
     combined = pd.concat(dfs, ignore_index=True)
     combined = combined.drop_duplicates(subset=["name", "date"], keep="first")
+    combined["segment"] = combined["segment"].replace("Sports", "Miscellaneous")
 
     output_path = os.path.join(OUTPUT_DIR, "events_combined.csv")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
