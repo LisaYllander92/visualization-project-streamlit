@@ -158,6 +158,7 @@ def plot_segment_over_time(df: pd.DataFrame) -> plt.Figure:
     ax.set_axisbelow(True)
     ax.set_xlabel("Month", color=COLORS["blue_dark"], fontsize=7)
     ax.set_ylabel("Number of events", color=COLORS["blue_dark"], fontsize=7)
+    ax.set_yticks([0, 20, 40, 60, 80, 100, 120])
     ax.legend(fontsize=8, frameon=False, labelcolor=COLORS["blue_dark"])
     ax.set_title(
         "Stockholm's cultural calendar — events by segment over the year",
