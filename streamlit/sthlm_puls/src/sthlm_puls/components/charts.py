@@ -3,8 +3,7 @@ import matplotlib.patches as mpatches
 import matplotlib.dates as mdates
 import numpy as np
 import pandas as pd
-import pydeck as pdk
-from sthlm_puls.utils.constants import COLORS, MAPBOX_TOKEN
+from sthlm_puls.utils.constants import COLORS
 
 
 def plot_events_weather(df_merged: pd.DataFrame) -> plt.Figure:
@@ -156,7 +155,6 @@ def plot_segment_over_time(df: pd.DataFrame) -> plt.Figure:
     ax.tick_params(colors=COLORS["blue_dark"], labelsize=9, length=0, pad=5)
     ax.yaxis.grid(True, color=COLORS["gray_1"], linewidth=0.5, linestyle="--")
     ax.set_axisbelow(True)
-    ax.set_xlabel("Month", color=COLORS["blue_dark"], fontsize=7)
     ax.set_ylabel("Number of events", color=COLORS["blue_dark"], fontsize=7)
     ax.set_yticks([0, 20, 40, 60, 80, 100, 120])
     ax.legend(fontsize=8, frameon=False, labelcolor=COLORS["blue_dark"])
@@ -168,27 +166,3 @@ def plot_segment_over_time(df: pd.DataFrame) -> plt.Figure:
 
     fig.tight_layout()
     return fig
-
-
-
-def events_map(df: pd.DataFrame):
-    layer = pdk.Layer(
-        "ScatterplotLayer",
-        data=df[["venue_lat", "venue_lon", "venue_name"]].drop_duplicates(),
-        get_position=["venue_lon", "venue_lat"],
-        get_radius=100,
-        get_fill_color=[255, 102, 102],
-        pickable=True,
-    )
-
-    view = pdk.ViewState(
-        latitude=59.33,
-        longitude=18.07,
-        zoom=11
-    )
-
-    return pdk.Deck(
-        layers=[layer],
-        initial_view_state=view,
-        tooltip={"text": "{venue_name}"}
-    )

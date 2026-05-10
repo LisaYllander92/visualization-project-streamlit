@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 from sthlm_puls.utils.constants import DATA_PATH, MARKDOWN_PATH, MAPBOX_TOKEN
 from sthlm_puls.components.weather import fetch_weather_forecast
-from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday, plot_segment_over_time, events_map
+from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday, plot_segment_over_time
 from sthlm_puls.components.filters import venue_filter, genre_filter, date_filter
 from sthlm_puls.components.kpis import total_events_kpi, unique_venues_kpi, total_events_this_month_kpi, total_events_today_kpi
 from sthlm_puls.utils.helpers import read_textfile, get_events_df

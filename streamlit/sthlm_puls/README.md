@@ -57,7 +57,7 @@ streamlit/sthlm_puls/src/sthlm_puls/
 ## Getting Started
 **Clone repository**
 ```bash
-git clone git@github.com:rickardgarnau-byte/visualization-project-streamlit.git
+git clone git@github.com:rickard-garnau/visualization-project-streamlit.git
 cd visualization-project-streamlit
 ```
 
