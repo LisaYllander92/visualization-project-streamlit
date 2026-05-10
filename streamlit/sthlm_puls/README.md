@@ -77,7 +77,3 @@ uv run streamlit run app.py
 ## Contributors
 - Lisa Yllander
 - Rickard Garnau
-
-### Sources
-[streamlit-folium](https://folium.streamlit.app/)\
-[folium](https://python-visualization.github.io/folium/latest/user_guide)
