@@ -18,10 +18,6 @@ def events_layout():
 
     # Load data
     weather = fetch_weather_forecast(days=7)
-
-    if weather.empty:
-        st.warning("Weather forecast unavailable right now.")
-
     events = get_events_df()
     events["month"] = events["date"].dt.to_period("M").dt.to_timestamp()
     genre_month = (
@@ -30,31 +26,34 @@ def events_layout():
         .reset_index(name="num_events")
     )
 
-    # Count events per day
-    events_per_day = (
-        events[events["date"].dt.date.between(
-            weather["date"].dt.date.min(),
-            weather["date"].dt.date.max()
-        )]
-        .groupby(events["date"].dt.date)
-        .size()
-        .reset_index(name="num_events")
-    )
-    events_per_day["date"] = pd.to_datetime(events_per_day["date"])
+    if weather.empty:
+        st.warning("Weather forecast unavailable right now.")
+    else:
+        # Count events per day
+        events_per_day = (
+            events[events["date"].dt.date.between(
+                weather["date"].dt.date.min(),
+                weather["date"].dt.date.max()
+            )]
+            .groupby(events["date"].dt.date)
+            .size()
+            .reset_index(name="num_events")
+        )
+        events_per_day["date"] = pd.to_datetime(events_per_day["date"])
 
-    # Merge
-    df_merged = weather.merge(events_per_day, on="date", how="left")
-    df_merged["num_events"] = df_merged["num_events"].fillna(0).astype(int)
+        # Merge
+        df_merged = weather.merge(events_per_day, on="date", how="left")
+        df_merged["num_events"] = df_merged["num_events"].fillna(0).astype(int)
 
-    # Plot
-    emoji_html = "".join(
-        f'<span style="display:inline-block;width:{100 / len(df_merged):.1f}%;text-align:center;font-size:1.2rem;">{row["icon"]}</span>'
-        for _, row in df_merged.iterrows()
-    )
-    st.markdown(f'<div style="width:100%;display:flex;">{emoji_html}</div>', unsafe_allow_html=True)
+        # Plot
+        emoji_html = "".join(
+            f'<span style="display:inline-block;width:{100 / len(df_merged):.1f}%;text-align:center;font-size:1.2rem;">{row["icon"]}</span>'
+            for _, row in df_merged.iterrows()
+        )
+        st.markdown(f'<div style="width:100%;display:flex;">{emoji_html}</div>', unsafe_allow_html=True)
 
-    fig = plot_events_weather(df_merged)
-    st.pyplot(fig)
+        fig = plot_events_weather(df_merged)
+        st.pyplot(fig)
 
     st.subheader("Explore to find what your next event will be")
     st.markdown("Filter by date, venue or genre to find exactly what you're looking for.")
@@ -70,7 +69,7 @@ def events_layout():
         st.session_state["reset"] = False
 
     # Date, venue and genre filters
-    col1,col2, col3, col4 = st.columns([3, 3, 3, 1])
+    col1, col2, col3, col4 = st.columns([3, 3, 3, 1])
     with col1:
         date_range = date_filter(events)
     with col2:
@@ -96,16 +95,16 @@ def events_layout():
         filtered = filtered[
             (filtered["date"].dt.date >= date_range[0]) &
             (filtered["date"].dt.date <= date_range[1])
-            ]
+        ]
 
     st.dataframe(filtered[["name", "venue_name", "date", "genre"]]
                  .assign(date=filtered["date"].dt.strftime("%y-%m-%d"))
                  .rename(columns={
-                    "name": "Event",
-                    "venue_name": "Venue",
-                    "date": "Date",
-                    "genre": "Genre"})
-                    .reset_index(drop=True))
+                     "name": "Event",
+                     "venue_name": "Venue",
+                     "date": "Date",
+                     "genre": "Genre"})
+                 .reset_index(drop=True))
 
     st.subheader("At a glance")
 
@@ -124,7 +123,7 @@ def events_layout():
 
     st.caption("Numbers reflect your current filter selection.")
 
-    # map
+    # Map
     st.subheader("Where to go?")
     st.markdown("Events are concentrated in central Stockholm — zoom in to explore venues by neighbourhood.")
 
@@ -135,7 +134,6 @@ def events_layout():
     st.markdown("Stockholm's cultural life peaks on weekends — Saturday alone accounts for nearly a third of all weekly events."
                 "If you prefer smaller crowds, mid-week offers a more low-key experience with fewer but often more intimate events.")
 
-    df = get_events_df()
     fig = plot_events_weekday(events)
     st.pyplot(fig)
 
