@@ -1,36 +1,6 @@
 import duckdb
 import pandas as pd
-#from sthlm_puls.utils.helpers import get_events_df
 from datetime import datetime
-
-#df = get_events_df()
-
-
-# def total_events_kpi(filtered, genre):
-#     if genre != "All":
-#         genre_escaped = genre.replace("'", "''")
-#         count = duckdb.sql(f"""
-#             SELECT COUNT(*) as num_events
-#             FROM filtered
-#             WHERE genre ILIKE '%{genre_escaped}%'
-#         """).fetchone()[0]
-#     else:
-#         count = len(filtered)
-#     return count
-#
-# def unique_venues_kpi(filtered, venue):
-#     if venue != "All":
-#         count = duckdb.sql(f"""
-#             SELECT COUNT(DISTINCT venue_name)
-#             FROM filtered
-#             WHERE venue_name ILIKE '%{venue}%'
-#         """).fetchone()[0]
-#     else:
-#         count = duckdb.sql("""
-#                            SELECT COUNT(DISTINCT venue_name)
-#                            FROM filtered
-#                            """).fetchone()[0]
-#     return count
 
 def count_kpi(filtered: pd.DataFrame, column: str, value: str) -> int:
     if value != "All":
