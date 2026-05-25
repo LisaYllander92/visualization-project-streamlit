@@ -21,8 +21,12 @@ def fetch_weather_forecast(days: int = 7) -> pd.DataFrame:
         "forecast_days": days
     }
 
-    r = requests.get(url, params=params, timeout=15)
-    r.raise_for_status()
+    try:
+        r = requests.get(url, params=params, timeout=15)
+        r.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        st.warning("Weather data is temporarily unavailable. Please try again in a moment.")
+        return pd.DataFrame()
 
     daily = r.json()["daily"]
     rows = []

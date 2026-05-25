@@ -19,6 +19,10 @@ def events_layout():
     # Load data
     weather = fetch_weather_forecast(days=7)
 
+    if weather.empty:
+        st.warning("Weather forecast unavailable right now.")
+        return
+
     events = get_events_df()
     events["month"] = events["date"].dt.to_period("M").dt.to_timestamp()
     genre_month = (
