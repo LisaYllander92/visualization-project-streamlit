@@ -21,7 +21,6 @@ def events_layout():
 
     if weather.empty:
         st.warning("Weather forecast unavailable right now.")
-        return
 
     events = get_events_df()
     events["month"] = events["date"].dt.to_period("M").dt.to_timestamp()
