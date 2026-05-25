@@ -1,35 +1,42 @@
 import duckdb
 import pandas as pd
-from sthlm_puls.utils.helpers import get_events_df
+#from sthlm_puls.utils.helpers import get_events_df
 from datetime import datetime
 
-df = get_events_df()
+#df = get_events_df()
 
-def total_events_kpi(filtered, genre):
-    if genre != "All":
-        genre_escaped = genre.replace("'", "''")
-        count = duckdb.sql(f"""
-            SELECT COUNT(*) as num_events
-            FROM filtered
-            WHERE genre ILIKE '%{genre_escaped}%'
-        """).fetchone()[0]
-    else:
-        count = len(filtered)
-    return count
 
-def unique_venues_kpi(filtered, venue):
-    if venue != "All":
-        count = duckdb.sql(f"""
-            SELECT COUNT(DISTINCT venue_name)
-            FROM filtered
-            WHERE venue_name ILIKE '%{venue}%'
-        """).fetchone()[0]
-    else:
-        count = duckdb.sql("""
-                           SELECT COUNT(DISTINCT venue_name)
-                           FROM filtered
-                           """).fetchone()[0]
-    return count
+# def total_events_kpi(filtered, genre):
+#     if genre != "All":
+#         genre_escaped = genre.replace("'", "''")
+#         count = duckdb.sql(f"""
+#             SELECT COUNT(*) as num_events
+#             FROM filtered
+#             WHERE genre ILIKE '%{genre_escaped}%'
+#         """).fetchone()[0]
+#     else:
+#         count = len(filtered)
+#     return count
+#
+# def unique_venues_kpi(filtered, venue):
+#     if venue != "All":
+#         count = duckdb.sql(f"""
+#             SELECT COUNT(DISTINCT venue_name)
+#             FROM filtered
+#             WHERE venue_name ILIKE '%{venue}%'
+#         """).fetchone()[0]
+#     else:
+#         count = duckdb.sql("""
+#                            SELECT COUNT(DISTINCT venue_name)
+#                            FROM filtered
+#                            """).fetchone()[0]
+#     return count
+
+def count_kpi(filtered: pd.DataFrame, column: str, value: str) -> int:
+    if value != "All":
+        return len(filtered[filtered[column].str.contains(value, case=False, na=False)])
+    return len(filtered[column].dropna().unique()) if column == "venue_name" else len(filtered)
+
 
 def total_events_this_month_kpi(df: pd.DataFrame) -> int:
     current_month = datetime.today().month
@@ -44,10 +51,9 @@ def total_events_this_month_kpi(df: pd.DataFrame) -> int:
 
 
 def total_events_today_kpi(df: pd.DataFrame) -> int:
-    result = duckdb.sql(f"""--sql
+    result = duckdb.sql("""--sql
     SELECT COUNT(*)
     FROM df
     WHERE CAST(date as DATE) = current_date
-""").fetchone()
-
+                        """).fetchone()
     return result[0] if result else 0

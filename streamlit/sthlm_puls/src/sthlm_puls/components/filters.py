@@ -1,13 +1,15 @@
 import streamlit as st
 import pandas as pd
 
+def column_filter(df: pd.DataFrame, column: str, label: str, key: str) -> str:
+    options = ["All"] + sorted(df[column].dropna().unique().tolist())
+    return st.selectbox(label=label, options=options, key=key)
+
 def venue_filter(df: pd.DataFrame) -> str:
-    venues = ["All"] + sorted(df["venue_name"].dropna().unique().tolist())
-    return st.selectbox(label="Venue", options=venues, key="venue_filter")
+    return column_filter(df, "venue_name", "Venue", "venue_filter")
 
 def genre_filter(df: pd.DataFrame) -> str:
-    genres = ["All"] + sorted(df["genre"].dropna().unique().tolist())
-    return st.selectbox(label="Genre", options=genres, key="genre_filter")
+    return column_filter(df, "genre", "Genre", "genre_filter")
 
 def date_filter(df: pd.DataFrame):
     min_date = df["date"].min().date()

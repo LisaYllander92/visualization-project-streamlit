@@ -6,3 +6,5 @@ __pycache__/
 .csv
 *.idea
 *.vscode
+uv.lock
+.python-version

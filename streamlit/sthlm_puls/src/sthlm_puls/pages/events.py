@@ -6,7 +6,7 @@ from sthlm_puls.utils.constants import DATA_PATH, MARKDOWN_PATH
 from sthlm_puls.components.weather import fetch_weather_forecast
 from sthlm_puls.components.charts import plot_events_weather, plot_events_weekday, plot_segment_over_time
 from sthlm_puls.components.filters import venue_filter, genre_filter, date_filter
-from sthlm_puls.components.kpis import total_events_kpi, unique_venues_kpi, total_events_this_month_kpi, total_events_today_kpi
+from sthlm_puls.components.kpis import count_kpi, total_events_this_month_kpi, total_events_today_kpi
 from sthlm_puls.utils.helpers import read_textfile, get_events_df
 from sthlm_puls.components.map import events_map
 
@@ -109,11 +109,9 @@ def events_layout():
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        count = total_events_kpi(filtered, genre)
-        st.metric(label="Total events", value=count)
+        st.metric(label="Total events", value=count_kpi(filtered, "genre", genre))
     with col2:
-        count = unique_venues_kpi(filtered, venue)
-        st.metric(label="Unique venues", value=count)
+        st.metric(label="Unique venues", value=count_kpi(filtered, "venue_name", venue))
     with col3:
         month_name = datetime.today().strftime("%B")
         st.metric(label=f"Total events this month ({month_name})", value=total_events_this_month_kpi(filtered))
@@ -135,7 +133,7 @@ def events_layout():
                 "If you prefer smaller crowds, mid-week offers a more low-key experience with fewer but often more intimate events.")
 
     df = get_events_df()
-    fig = plot_events_weekday(df)
+    fig = plot_events_weekday(events)
     st.pyplot(fig)
 
     st.subheader("How is the scene distributed over the year?")

@@ -8,15 +8,12 @@ def read_textfile(path) -> str:
 
 
 @st.cache_data
-def get_events_df():
+def get_events_df(future_only: bool = True) -> pd.DataFrame:
     df = pd.read_csv(DATA_PATH / "events_combined.csv")
     df["date"] = pd.to_datetime(df["date"])
-    df = df[df["date"] >= pd.Timestamp.today().normalize()]
+    if future_only:
+        df = df[df["date"] >= pd.Timestamp.today().normalize()]
     return df
-
-@st.cache_data
-def get_raw_events_df():
-    return pd.read_csv(DATA_PATH / "events_combined.csv")
 
 
 def read_css(path):

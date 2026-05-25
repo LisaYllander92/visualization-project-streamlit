@@ -15,6 +15,7 @@ def events_map(df: pd.DataFrame, focus_venue: str = None):
         location = [59.33, 18.07]
         zoom = 13
 
+
     m = folium.Map(
         location=location,
         zoom_start=zoom,
@@ -24,13 +25,6 @@ def events_map(df: pd.DataFrame, focus_venue: str = None):
 
     if len(coords) > 1:
         m.fit_bounds(coords)
-
-    m = folium.Map(
-        location=location,
-        zoom_start=zoom,
-        zoom_control=False,
-        tiles="OpenStreetMap",
-    )
 
     for _, row in df[["venue_lat", "venue_lon", "venue_name", "name", "url"]].drop_duplicates().iterrows():
         folium.CircleMarker(
